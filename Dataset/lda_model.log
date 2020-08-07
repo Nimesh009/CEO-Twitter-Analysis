@@ -1,0 +1,724 @@
+2020-08-07 12:24:19,861 : INFO : using symmetric alpha at 0.125
+2020-08-07 12:24:19,862 : INFO : using symmetric eta at 0.125
+2020-08-07 12:24:19,909 : INFO : using serial LDA version on this node
+2020-08-07 12:24:20,049 : INFO : running online LDA training, 8 topics, 50 passes over the supplied corpus of 610 documents, updating every 700 documents, evaluating every ~610 documents, iterating 50x with a convergence threshold of 0.001000
+2020-08-07 12:24:20,081 : INFO : training LDA model using 7 processes
+2020-08-07 12:24:20,319 : INFO : PROGRESS: pass 0, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:20,320 : INFO : PROGRESS: pass 0, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:20,363 : INFO : PROGRESS: pass 0, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:20,363 : INFO : PROGRESS: pass 0, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:20,364 : INFO : PROGRESS: pass 0, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:20,364 : INFO : PROGRESS: pass 0, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:20,364 : INFO : PROGRESS: pass 0, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:54,573 : INFO : topic #0 (0.125): 0.055*"day" + 0.046*"year" + 0.046*"see" + 0.037*"apple" + 0.032*"today" + 0.032*"customer" + 0.028*"thanks" + 0.028*"time" + 0.028*"shotoniphone" + 0.023*"u"
+2020-08-07 12:24:54,573 : INFO : topic #6 (0.125): 0.088*"apple" + 0.088*"today" + 0.039*"heart" + 0.036*"new" + 0.035*"family" + 0.029*"around_world" + 0.029*"meet" + 0.026*"thank" + 0.026*"u" + 0.026*"see"
+2020-08-07 12:24:54,574 : INFO : topic #7 (0.125): 0.151*"apple" + 0.060*"u" + 0.035*"everyone" + 0.035*"thanks" + 0.033*"around_world" + 0.030*"team" + 0.028*"first" + 0.027*"great" + 0.025*"thank" + 0.023*"life"
+2020-08-07 12:24:54,574 : INFO : topic #2 (0.125): 0.069*"everyone" + 0.050*"u" + 0.040*"proud" + 0.037*"day" + 0.034*"today" + 0.034*"thank" + 0.029*"new" + 0.027*"happy" + 0.027*"let" + 0.027*"congratulation"
+2020-08-07 12:24:54,575 : INFO : topic #4 (0.125): 0.064*"apple" + 0.044*"everyone" + 0.035*"thanks" + 0.035*"community" + 0.035*"shotoniphone" + 0.030*"today" + 0.030*"proud" + 0.030*"happy" + 0.025*"place" + 0.025*"employee"
+2020-08-07 12:24:54,592 : INFO : topic diff=2.827039, rho=1.000000
+2020-08-07 12:24:54,717 : INFO : -5.239 per-word bound, 37.8 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:54,717 : INFO : PROGRESS: pass 1, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:54,718 : INFO : PROGRESS: pass 1, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:54,719 : INFO : PROGRESS: pass 1, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:54,720 : INFO : PROGRESS: pass 1, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:54,722 : INFO : PROGRESS: pass 1, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:54,723 : INFO : PROGRESS: pass 1, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:54,724 : INFO : PROGRESS: pass 1, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:54,886 : INFO : topic #4 (0.125): 0.065*"apple" + 0.048*"everyone" + 0.038*"shotoniphone" + 0.035*"community" + 0.032*"place" + 0.031*"happy" + 0.029*"proud" + 0.029*"like" + 0.029*"thanks" + 0.028*"employee"
+2020-08-07 12:24:54,886 : INFO : topic #2 (0.125): 0.068*"everyone" + 0.060*"u" + 0.042*"proud" + 0.037*"day" + 0.034*"today" + 0.032*"thank" + 0.030*"happy" + 0.030*"congratulation" + 0.030*"let" + 0.028*"life"
+2020-08-07 12:24:54,886 : INFO : topic #3 (0.125): 0.074*"thank" + 0.057*"work" + 0.052*"apple" + 0.052*"team" + 0.035*"world" + 0.031*"family" + 0.030*"visit" + 0.029*"morning" + 0.029*"friend" + 0.026*"proud"
+2020-08-07 12:24:54,919 : INFO : topic #6 (0.125): 0.095*"today" + 0.091*"apple" + 0.041*"heart" + 0.036*"family" + 0.035*"new" + 0.033*"meet" + 0.030*"around_world" + 0.030*"thrilled" + 0.026*"people" + 0.025*"store"
+2020-08-07 12:24:54,919 : INFO : topic #1 (0.125): 0.049*"family" + 0.049*"heart" + 0.047*"one" + 0.046*"new" + 0.043*"community" + 0.037*"pro" + 0.037*"developer" + 0.035*"violence" + 0.033*"victim" + 0.032*"world"
+2020-08-07 12:24:54,919 : INFO : topic diff=0.185844, rho=0.351364
+2020-08-07 12:24:54,927 : INFO : -5.155 per-word bound, 35.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:54,928 : INFO : PROGRESS: pass 2, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:54,929 : INFO : PROGRESS: pass 2, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:54,932 : INFO : PROGRESS: pass 2, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:54,935 : INFO : PROGRESS: pass 2, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:54,938 : INFO : PROGRESS: pass 2, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:54,939 : INFO : PROGRESS: pass 2, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:54,939 : INFO : PROGRESS: pass 2, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,095 : INFO : topic #6 (0.125): 0.097*"today" + 0.091*"apple" + 0.044*"heart" + 0.037*"family" + 0.036*"meet" + 0.035*"new" + 0.032*"thrilled" + 0.031*"around_world" + 0.028*"people" + 0.027*"store"
+2020-08-07 12:24:55,096 : INFO : topic #0 (0.125): 0.061*"see" + 0.058*"day" + 0.057*"year" + 0.033*"apple" + 0.032*"time" + 0.031*"today" + 0.030*"world" + 0.029*"great" + 0.029*"customer" + 0.028*"week"
+2020-08-07 12:24:55,096 : INFO : topic #2 (0.125): 0.071*"u" + 0.065*"everyone" + 0.042*"proud" + 0.036*"day" + 0.035*"today" + 0.033*"congratulation" + 0.033*"happy" + 0.033*"celebrate" + 0.031*"let" + 0.031*"life"
+2020-08-07 12:24:55,097 : INFO : topic #5 (0.125): 0.114*"thanks" + 0.071*"iphone" + 0.058*"love" + 0.057*"new" + 0.040*"student" + 0.039*"forward" + 0.034*"apple" + 0.030*"one" + 0.026*"see" + 0.025*"shotoniphone"
+2020-08-07 12:24:55,097 : INFO : topic #7 (0.125): 0.169*"apple" + 0.067*"u" + 0.046*"around_world" + 0.040*"everyone" + 0.037*"thanks" + 0.033*"first" + 0.032*"team" + 0.030*"thank" + 0.028*"celebrating" + 0.027*"great"
+2020-08-07 12:24:55,097 : INFO : topic diff=0.183844, rho=0.331497
+2020-08-07 12:24:55,103 : INFO : -5.111 per-word bound, 34.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,104 : INFO : PROGRESS: pass 3, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,105 : INFO : PROGRESS: pass 3, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,105 : INFO : PROGRESS: pass 3, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,107 : INFO : PROGRESS: pass 3, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,108 : INFO : PROGRESS: pass 3, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,108 : INFO : PROGRESS: pass 3, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,109 : INFO : PROGRESS: pass 3, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,249 : INFO : topic #4 (0.125): 0.069*"apple" + 0.050*"everyone" + 0.044*"shotoniphone" + 0.042*"place" + 0.036*"enjoy" + 0.036*"happy" + 0.035*"community" + 0.034*"employee" + 0.034*"never" + 0.033*"like"
+2020-08-07 12:24:55,249 : INFO : topic #1 (0.125): 0.057*"family" + 0.057*"one" + 0.056*"heart" + 0.050*"community" + 0.041*"new" + 0.038*"victim" + 0.038*"developer" + 0.036*"violence" + 0.036*"today" + 0.036*"pro"
+2020-08-07 12:24:55,250 : INFO : topic #5 (0.125): 0.121*"thanks" + 0.080*"iphone" + 0.063*"love" + 0.063*"new" + 0.040*"forward" + 0.040*"student" + 0.031*"apple" + 0.028*"shotoniphone" + 0.026*"one" + 0.025*"thing"
+2020-08-07 12:24:55,250 : INFO : topic #0 (0.125): 0.065*"see" + 0.061*"year" + 0.058*"day" + 0.035*"time" + 0.034*"world" + 0.033*"week" + 0.031*"apple" + 0.031*"great" + 0.030*"today" + 0.030*"developer"
+2020-08-07 12:24:55,250 : INFO : topic #2 (0.125): 0.082*"u" + 0.060*"everyone" + 0.043*"proud" + 0.036*"celebrate" + 0.036*"happy" + 0.035*"congratulation" + 0.035*"day" + 0.034*"today" + 0.033*"life" + 0.033*"let"
+2020-08-07 12:24:55,250 : INFO : topic diff=0.191581, rho=0.314658
+2020-08-07 12:24:55,255 : INFO : -5.036 per-word bound, 32.8 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,256 : INFO : PROGRESS: pass 4, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,256 : INFO : PROGRESS: pass 4, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,257 : INFO : PROGRESS: pass 4, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,258 : INFO : PROGRESS: pass 4, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,259 : INFO : PROGRESS: pass 4, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,321 : INFO : PROGRESS: pass 4, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,322 : INFO : PROGRESS: pass 4, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,389 : INFO : topic #4 (0.125): 0.071*"apple" + 0.050*"everyone" + 0.046*"shotoniphone" + 0.045*"place" + 0.044*"never" + 0.040*"enjoy" + 0.036*"happy" + 0.035*"employee" + 0.035*"community" + 0.035*"like"
+2020-08-07 12:24:55,389 : INFO : topic #3 (0.125): 0.089*"thank" + 0.069*"work" + 0.064*"team" + 0.052*"apple" + 0.039*"friend" + 0.039*"proud" + 0.036*"family" + 0.036*"visit" + 0.035*"great" + 0.032*"back"
+2020-08-07 12:24:55,389 : INFO : topic #1 (0.125): 0.060*"one" + 0.060*"family" + 0.057*"heart" + 0.053*"community" + 0.039*"victim" + 0.039*"new" + 0.038*"today" + 0.038*"developer" + 0.037*"violence" + 0.036*"world"
+2020-08-07 12:24:55,389 : INFO : topic #6 (0.125): 0.103*"today" + 0.093*"apple" + 0.047*"heart" + 0.040*"meet" + 0.037*"new" + 0.036*"thrilled" + 0.034*"family" + 0.033*"store" + 0.031*"many" + 0.031*"people"
+2020-08-07 12:24:55,390 : INFO : topic #5 (0.125): 0.128*"thanks" + 0.088*"iphone" + 0.068*"new" + 0.067*"love" + 0.041*"forward" + 0.040*"student" + 0.030*"shotoniphone" + 0.029*"apple" + 0.027*"thing" + 0.024*"one"
+2020-08-07 12:24:55,390 : INFO : topic diff=0.196174, rho=0.300150
+2020-08-07 12:24:55,394 : INFO : -5.005 per-word bound, 32.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,394 : INFO : PROGRESS: pass 5, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,395 : INFO : PROGRESS: pass 5, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,396 : INFO : PROGRESS: pass 5, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,397 : INFO : PROGRESS: pass 5, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,398 : INFO : PROGRESS: pass 5, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,398 : INFO : PROGRESS: pass 5, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,398 : INFO : PROGRESS: pass 5, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,538 : INFO : topic #4 (0.125): 0.074*"apple" + 0.050*"never" + 0.049*"everyone" + 0.047*"place" + 0.047*"shotoniphone" + 0.043*"enjoy" + 0.037*"always" + 0.036*"happy" + 0.036*"employee" + 0.035*"like"
+2020-08-07 12:24:55,538 : INFO : topic #2 (0.125): 0.101*"u" + 0.054*"everyone" + 0.041*"proud" + 0.040*"celebrate" + 0.038*"congratulation" + 0.038*"happy" + 0.036*"life" + 0.035*"day" + 0.034*"let" + 0.034*"today"
+2020-08-07 12:24:55,538 : INFO : topic #0 (0.125): 0.071*"see" + 0.070*"year" + 0.055*"day" + 0.041*"time" + 0.038*"world" + 0.038*"week" + 0.035*"great" + 0.033*"developer" + 0.030*"today" + 0.029*"talented"
+2020-08-07 12:24:55,538 : INFO : topic #5 (0.125): 0.134*"thanks" + 0.094*"iphone" + 0.072*"new" + 0.070*"love" + 0.042*"forward" + 0.041*"student" + 0.032*"shotoniphone" + 0.030*"thing" + 0.026*"apple" + 0.023*"photo"
+2020-08-07 12:24:55,539 : INFO : topic #7 (0.125): 0.190*"apple" + 0.059*"u" + 0.059*"around_world" + 0.047*"everyone" + 0.040*"celebrating" + 0.039*"first" + 0.037*"thanks" + 0.033*"day" + 0.033*"thank" + 0.032*"team"
+2020-08-07 12:24:55,539 : INFO : topic diff=0.200283, rho=0.287480
+2020-08-07 12:24:55,543 : INFO : -4.962 per-word bound, 31.2 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,543 : INFO : PROGRESS: pass 6, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,544 : INFO : PROGRESS: pass 6, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,544 : INFO : PROGRESS: pass 6, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,545 : INFO : PROGRESS: pass 6, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,546 : INFO : PROGRESS: pass 6, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,547 : INFO : PROGRESS: pass 6, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,547 : INFO : PROGRESS: pass 6, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,675 : INFO : topic #4 (0.125): 0.075*"apple" + 0.056*"never" + 0.050*"place" + 0.047*"shotoniphone" + 0.047*"everyone" + 0.046*"enjoy" + 0.040*"always" + 0.036*"thank" + 0.036*"like" + 0.035*"photo"
+2020-08-07 12:24:55,675 : INFO : topic #3 (0.125): 0.100*"thank" + 0.078*"work" + 0.070*"team" + 0.052*"apple" + 0.049*"proud" + 0.047*"friend" + 0.040*"great" + 0.038*"visit" + 0.037*"family" + 0.036*"back"
+2020-08-07 12:24:55,675 : INFO : topic #2 (0.125): 0.108*"u" + 0.050*"everyone" + 0.042*"celebrate" + 0.040*"proud" + 0.039*"congratulation" + 0.038*"life" + 0.038*"happy" + 0.035*"let" + 0.034*"day" + 0.034*"today"
+2020-08-07 12:24:55,675 : INFO : topic #7 (0.125): 0.192*"apple" + 0.062*"around_world" + 0.055*"u" + 0.050*"everyone" + 0.044*"celebrating" + 0.040*"first" + 0.037*"thanks" + 0.034*"day" + 0.034*"thank" + 0.032*"team"
+2020-08-07 12:24:55,676 : INFO : topic #1 (0.125): 0.066*"one" + 0.066*"family" + 0.064*"heart" + 0.057*"community" + 0.040*"victim" + 0.040*"today" + 0.039*"violence" + 0.036*"developer" + 0.036*"new" + 0.035*"app"
+2020-08-07 12:24:55,676 : INFO : topic diff=0.205945, rho=0.276289
+2020-08-07 12:24:55,680 : INFO : -4.912 per-word bound, 30.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,680 : INFO : PROGRESS: pass 7, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,681 : INFO : PROGRESS: pass 7, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,682 : INFO : PROGRESS: pass 7, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,682 : INFO : PROGRESS: pass 7, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,684 : INFO : PROGRESS: pass 7, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,684 : INFO : PROGRESS: pass 7, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,685 : INFO : PROGRESS: pass 7, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,808 : INFO : topic #7 (0.125): 0.194*"apple" + 0.065*"around_world" + 0.053*"everyone" + 0.053*"u" + 0.047*"celebrating" + 0.040*"first" + 0.037*"thanks" + 0.035*"day" + 0.034*"thank" + 0.034*"happy"
+2020-08-07 12:24:55,808 : INFO : topic #2 (0.125): 0.115*"u" + 0.048*"everyone" + 0.043*"celebrate" + 0.040*"congratulation" + 0.040*"life" + 0.038*"proud" + 0.037*"happy" + 0.035*"let" + 0.034*"today" + 0.034*"day"
+2020-08-07 12:24:55,808 : INFO : topic #5 (0.125): 0.143*"thanks" + 0.103*"iphone" + 0.081*"new" + 0.073*"love" + 0.044*"student" + 0.044*"forward" + 0.034*"thing" + 0.034*"shotoniphone" + 0.025*"photo" + 0.021*"customer"
+2020-08-07 12:24:55,809 : INFO : topic #0 (0.125): 0.074*"year" + 0.073*"see" + 0.053*"day" + 0.043*"time" + 0.042*"world" + 0.041*"week" + 0.036*"developer" + 0.035*"great" + 0.032*"today" + 0.031*"good"
+2020-08-07 12:24:55,809 : INFO : topic #1 (0.125): 0.069*"family" + 0.069*"one" + 0.068*"heart" + 0.060*"community" + 0.042*"today" + 0.041*"victim" + 0.039*"violence" + 0.037*"affected" + 0.036*"app" + 0.035*"new"
+2020-08-07 12:24:55,809 : INFO : topic diff=0.204039, rho=0.266312
+2020-08-07 12:24:55,813 : INFO : -4.883 per-word bound, 29.5 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,813 : INFO : PROGRESS: pass 8, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,814 : INFO : PROGRESS: pass 8, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,815 : INFO : PROGRESS: pass 8, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,816 : INFO : PROGRESS: pass 8, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,817 : INFO : PROGRESS: pass 8, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,817 : INFO : PROGRESS: pass 8, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,818 : INFO : PROGRESS: pass 8, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:55,935 : INFO : topic #0 (0.125): 0.075*"year" + 0.075*"see" + 0.052*"day" + 0.044*"world" + 0.044*"time" + 0.042*"week" + 0.038*"developer" + 0.034*"great" + 0.034*"today" + 0.031*"good"
+2020-08-07 12:24:55,936 : INFO : topic #5 (0.125): 0.146*"thanks" + 0.106*"iphone" + 0.085*"new" + 0.074*"love" + 0.046*"student" + 0.044*"forward" + 0.035*"thing" + 0.034*"shotoniphone" + 0.025*"photo" + 0.022*"customer"
+2020-08-07 12:24:55,936 : INFO : topic #4 (0.125): 0.077*"apple" + 0.066*"never" + 0.051*"place" + 0.050*"enjoy" + 0.049*"shotoniphone" + 0.045*"always" + 0.043*"everyone" + 0.039*"thank" + 0.038*"like" + 0.037*"photo"
+2020-08-07 12:24:55,936 : INFO : topic #3 (0.125): 0.109*"thank" + 0.085*"work" + 0.071*"team" + 0.061*"proud" + 0.055*"apple" + 0.051*"friend" + 0.047*"great" + 0.039*"visit" + 0.038*"back" + 0.037*"family"
+2020-08-07 12:24:55,936 : INFO : topic #7 (0.125): 0.195*"apple" + 0.068*"around_world" + 0.057*"everyone" + 0.050*"celebrating" + 0.050*"u" + 0.040*"first" + 0.037*"thanks" + 0.037*"happy" + 0.037*"day" + 0.035*"thank"
+2020-08-07 12:24:55,936 : INFO : topic diff=0.199042, rho=0.257343
+2020-08-07 12:24:55,941 : INFO : -4.873 per-word bound, 29.3 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:55,942 : INFO : PROGRESS: pass 9, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:55,943 : INFO : PROGRESS: pass 9, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:55,944 : INFO : PROGRESS: pass 9, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:55,945 : INFO : PROGRESS: pass 9, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:55,975 : INFO : PROGRESS: pass 9, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:55,976 : INFO : PROGRESS: pass 9, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:55,976 : INFO : PROGRESS: pass 9, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:56,064 : INFO : topic #6 (0.125): 0.107*"today" + 0.103*"apple" + 0.048*"store" + 0.046*"new" + 0.045*"meet" + 0.044*"many" + 0.043*"thrilled" + 0.038*"heart" + 0.033*"people" + 0.033*"future"
+2020-08-07 12:24:56,064 : INFO : topic #2 (0.125): 0.126*"u" + 0.045*"celebrate" + 0.045*"life" + 0.042*"everyone" + 0.041*"congratulation" + 0.037*"happy" + 0.036*"let" + 0.035*"today" + 0.034*"proud" + 0.034*"day"
+2020-08-07 12:24:56,064 : INFO : topic #3 (0.125): 0.113*"thank" + 0.088*"work" + 0.072*"team" + 0.068*"proud" + 0.055*"apple" + 0.051*"friend" + 0.050*"great" + 0.039*"visit" + 0.038*"everyone" + 0.038*"back"
+2020-08-07 12:24:56,065 : INFO : topic #0 (0.125): 0.077*"year" + 0.076*"see" + 0.052*"day" + 0.046*"world" + 0.044*"time" + 0.042*"week" + 0.039*"developer" + 0.035*"today" + 0.033*"great" + 0.032*"good"
+2020-08-07 12:24:56,065 : INFO : topic #5 (0.125): 0.149*"thanks" + 0.109*"iphone" + 0.088*"new" + 0.075*"love" + 0.048*"student" + 0.045*"forward" + 0.035*"thing" + 0.035*"shotoniphone" + 0.025*"photo" + 0.023*"customer"
+2020-08-07 12:24:56,065 : INFO : topic diff=0.190812, rho=0.249222
+2020-08-07 12:24:56,069 : INFO : -4.854 per-word bound, 28.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,069 : INFO : PROGRESS: pass 10, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,070 : INFO : PROGRESS: pass 10, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,071 : INFO : PROGRESS: pass 10, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,072 : INFO : PROGRESS: pass 10, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,073 : INFO : PROGRESS: pass 10, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:56,073 : INFO : PROGRESS: pass 10, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:56,074 : INFO : PROGRESS: pass 10, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:56,192 : INFO : topic #5 (0.125): 0.152*"thanks" + 0.111*"iphone" + 0.090*"new" + 0.076*"love" + 0.049*"student" + 0.045*"forward" + 0.036*"thing" + 0.035*"shotoniphone" + 0.026*"photo" + 0.023*"beautiful"
+2020-08-07 12:24:56,192 : INFO : topic #1 (0.125): 0.077*"family" + 0.076*"heart" + 0.072*"one" + 0.067*"community" + 0.044*"victim" + 0.042*"today" + 0.042*"affected" + 0.040*"violence" + 0.035*"app" + 0.033*"new"
+2020-08-07 12:24:56,192 : INFO : topic #6 (0.125): 0.106*"today" + 0.106*"apple" + 0.050*"store" + 0.047*"new" + 0.046*"many" + 0.045*"meet" + 0.044*"thrilled" + 0.037*"heart" + 0.035*"future" + 0.034*"people"
+2020-08-07 12:24:56,192 : INFO : topic #4 (0.125): 0.077*"apple" + 0.071*"never" + 0.053*"place" + 0.052*"enjoy" + 0.051*"shotoniphone" + 0.048*"always" + 0.044*"like" + 0.039*"thank" + 0.039*"photo" + 0.038*"stunning"
+2020-08-07 12:24:56,193 : INFO : topic #7 (0.125): 0.195*"apple" + 0.072*"around_world" + 0.063*"everyone" + 0.056*"celebrating" + 0.045*"u" + 0.042*"happy" + 0.041*"first" + 0.038*"day" + 0.037*"thank" + 0.036*"thanks"
+2020-08-07 12:24:56,193 : INFO : topic diff=0.180722, rho=0.241825
+2020-08-07 12:24:56,197 : INFO : -4.838 per-word bound, 28.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,197 : INFO : PROGRESS: pass 11, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,198 : INFO : PROGRESS: pass 11, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,199 : INFO : PROGRESS: pass 11, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,200 : INFO : PROGRESS: pass 11, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,201 : INFO : PROGRESS: pass 11, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:56,201 : INFO : PROGRESS: pass 11, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:56,202 : INFO : PROGRESS: pass 11, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:56,320 : INFO : topic #4 (0.125): 0.077*"apple" + 0.073*"never" + 0.054*"place" + 0.053*"enjoy" + 0.052*"shotoniphone" + 0.048*"always" + 0.047*"like" + 0.040*"stunning" + 0.040*"country" + 0.039*"photo"
+2020-08-07 12:24:56,321 : INFO : topic #1 (0.125): 0.080*"heart" + 0.079*"family" + 0.074*"one" + 0.069*"community" + 0.044*"victim" + 0.043*"affected" + 0.042*"today" + 0.041*"violence" + 0.035*"app" + 0.034*"loved"
+2020-08-07 12:24:56,321 : INFO : topic #0 (0.125): 0.079*"year" + 0.077*"see" + 0.050*"day" + 0.049*"world" + 0.045*"time" + 0.043*"week" + 0.041*"developer" + 0.037*"today" + 0.032*"good" + 0.032*"powerful"
+2020-08-07 12:24:56,321 : INFO : topic #2 (0.125): 0.135*"u" + 0.048*"life" + 0.047*"celebrate" + 0.042*"congratulation" + 0.038*"everyone" + 0.038*"let" + 0.036*"every" + 0.036*"today" + 0.035*"happy" + 0.033*"day"
+2020-08-07 12:24:56,321 : INFO : topic #3 (0.125): 0.119*"thank" + 0.094*"work" + 0.078*"proud" + 0.072*"team" + 0.055*"great" + 0.054*"apple" + 0.054*"friend" + 0.039*"visit" + 0.039*"back" + 0.038*"everyone"
+2020-08-07 12:24:56,321 : INFO : topic diff=0.169840, rho=0.235050
+2020-08-07 12:24:56,326 : INFO : -4.827 per-word bound, 28.4 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,326 : INFO : PROGRESS: pass 12, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,327 : INFO : PROGRESS: pass 12, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,327 : INFO : PROGRESS: pass 12, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,328 : INFO : PROGRESS: pass 12, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,329 : INFO : PROGRESS: pass 12, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:56,330 : INFO : PROGRESS: pass 12, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:56,330 : INFO : PROGRESS: pass 12, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:56,463 : INFO : topic #2 (0.125): 0.139*"u" + 0.050*"life" + 0.048*"celebrate" + 0.042*"congratulation" + 0.038*"every" + 0.038*"let" + 0.035*"everyone" + 0.035*"today" + 0.034*"happy" + 0.034*"day"
+2020-08-07 12:24:56,463 : INFO : topic #5 (0.125): 0.157*"thanks" + 0.115*"iphone" + 0.094*"new" + 0.077*"love" + 0.052*"student" + 0.046*"forward" + 0.037*"thing" + 0.036*"shotoniphone" + 0.026*"photo" + 0.024*"customer"
+2020-08-07 12:24:56,463 : INFO : topic #7 (0.125): 0.191*"apple" + 0.075*"around_world" + 0.069*"everyone" + 0.060*"celebrating" + 0.047*"happy" + 0.041*"u" + 0.040*"first" + 0.040*"day" + 0.039*"thank" + 0.036*"thanks"
+2020-08-07 12:24:56,464 : INFO : topic #1 (0.125): 0.084*"heart" + 0.080*"family" + 0.075*"one" + 0.071*"community" + 0.045*"victim" + 0.044*"affected" + 0.042*"today" + 0.041*"violence" + 0.035*"loved" + 0.035*"app"
+2020-08-07 12:24:56,464 : INFO : topic #4 (0.125): 0.078*"apple" + 0.074*"never" + 0.055*"place" + 0.053*"enjoy" + 0.053*"shotoniphone" + 0.048*"like" + 0.047*"always" + 0.042*"story" + 0.042*"country" + 0.041*"stunning"
+2020-08-07 12:24:56,464 : INFO : topic diff=0.157733, rho=0.228814
+2020-08-07 12:24:56,469 : INFO : -4.819 per-word bound, 28.2 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,470 : INFO : PROGRESS: pass 13, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,471 : INFO : PROGRESS: pass 13, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,472 : INFO : PROGRESS: pass 13, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,472 : INFO : PROGRESS: pass 13, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,474 : INFO : PROGRESS: pass 13, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:56,474 : INFO : PROGRESS: pass 13, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:56,474 : INFO : PROGRESS: pass 13, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:56,606 : INFO : topic #1 (0.125): 0.088*"heart" + 0.081*"family" + 0.076*"one" + 0.073*"community" + 0.045*"victim" + 0.045*"affected" + 0.042*"today" + 0.042*"violence" + 0.036*"loved" + 0.034*"pro"
+2020-08-07 12:24:56,606 : INFO : topic #3 (0.125): 0.124*"thank" + 0.100*"work" + 0.085*"proud" + 0.074*"team" + 0.060*"great" + 0.055*"friend" + 0.052*"apple" + 0.040*"visit" + 0.039*"back" + 0.038*"help"
+2020-08-07 12:24:56,606 : INFO : topic #7 (0.125): 0.189*"apple" + 0.077*"around_world" + 0.072*"everyone" + 0.061*"celebrating" + 0.049*"happy" + 0.040*"first" + 0.040*"thank" + 0.040*"day" + 0.039*"u" + 0.036*"thanks"
+2020-08-07 12:24:56,606 : INFO : topic #0 (0.125): 0.081*"year" + 0.077*"see" + 0.051*"world" + 0.049*"day" + 0.046*"time" + 0.045*"developer" + 0.043*"week" + 0.036*"today" + 0.033*"ago" + 0.033*"powerful"
+2020-08-07 12:24:56,607 : INFO : topic #2 (0.125): 0.143*"u" + 0.051*"life" + 0.048*"celebrate" + 0.043*"congratulation" + 0.040*"every" + 0.039*"let" + 0.035*"today" + 0.034*"day" + 0.034*"everyone" + 0.033*"happy"
+2020-08-07 12:24:56,607 : INFO : topic diff=0.147030, rho=0.223050
+2020-08-07 12:24:56,611 : INFO : -4.813 per-word bound, 28.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,612 : INFO : PROGRESS: pass 14, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,612 : INFO : PROGRESS: pass 14, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,613 : INFO : PROGRESS: pass 14, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,614 : INFO : PROGRESS: pass 14, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,675 : INFO : PROGRESS: pass 14, dispatched chunk #4 = documents up to #500/610, outstanding queue size 3
+2020-08-07 12:24:56,676 : INFO : PROGRESS: pass 14, dispatched chunk #5 = documents up to #600/610, outstanding queue size 4
+2020-08-07 12:24:56,676 : INFO : PROGRESS: pass 14, dispatched chunk #6 = documents up to #610/610, outstanding queue size 5
+2020-08-07 12:24:56,737 : INFO : topic #5 (0.125): 0.163*"thanks" + 0.118*"iphone" + 0.094*"new" + 0.078*"love" + 0.054*"student" + 0.046*"forward" + 0.038*"thing" + 0.037*"shotoniphone" + 0.027*"photo" + 0.025*"customer"
+2020-08-07 12:24:56,738 : INFO : topic #0 (0.125): 0.082*"year" + 0.077*"see" + 0.052*"world" + 0.049*"day" + 0.046*"developer" + 0.046*"time" + 0.043*"week" + 0.036*"today" + 0.033*"ago" + 0.033*"powerful"
+2020-08-07 12:24:56,738 : INFO : topic #6 (0.125): 0.120*"apple" + 0.104*"today" + 0.054*"store" + 0.053*"new" + 0.052*"many" + 0.047*"thrilled" + 0.046*"meet" + 0.042*"future" + 0.032*"people" + 0.030*"life"
+2020-08-07 12:24:56,738 : INFO : topic #1 (0.125): 0.091*"heart" + 0.082*"family" + 0.077*"one" + 0.075*"community" + 0.046*"victim" + 0.045*"affected" + 0.043*"today" + 0.042*"violence" + 0.036*"loved" + 0.034*"pro"
+2020-08-07 12:24:56,738 : INFO : topic #7 (0.125): 0.186*"apple" + 0.078*"around_world" + 0.075*"everyone" + 0.063*"celebrating" + 0.051*"happy" + 0.040*"first" + 0.040*"thank" + 0.039*"day" + 0.037*"u" + 0.035*"thanks"
+2020-08-07 12:24:56,738 : INFO : topic diff=0.135017, rho=0.217700
+2020-08-07 12:24:56,742 : INFO : -4.823 per-word bound, 28.3 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,743 : INFO : PROGRESS: pass 15, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,743 : INFO : PROGRESS: pass 15, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,744 : INFO : PROGRESS: pass 15, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,745 : INFO : PROGRESS: pass 15, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,746 : INFO : PROGRESS: pass 15, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:56,746 : INFO : PROGRESS: pass 15, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:56,747 : INFO : PROGRESS: pass 15, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:56,872 : INFO : topic #0 (0.125): 0.083*"year" + 0.078*"see" + 0.053*"world" + 0.048*"developer" + 0.048*"day" + 0.046*"time" + 0.043*"week" + 0.036*"today" + 0.034*"ago" + 0.033*"powerful"
+2020-08-07 12:24:56,872 : INFO : topic #2 (0.125): 0.148*"u" + 0.051*"life" + 0.049*"celebrate" + 0.044*"every" + 0.044*"congratulation" + 0.040*"let" + 0.036*"make" + 0.035*"day" + 0.035*"today" + 0.032*"happy"
+2020-08-07 12:24:56,872 : INFO : topic #4 (0.125): 0.081*"apple" + 0.075*"never" + 0.055*"place" + 0.053*"shotoniphone" + 0.053*"story" + 0.053*"enjoy" + 0.050*"like" + 0.049*"country" + 0.046*"always" + 0.043*"woman"
+2020-08-07 12:24:56,873 : INFO : topic #1 (0.125): 0.095*"heart" + 0.083*"family" + 0.078*"one" + 0.076*"community" + 0.046*"victim" + 0.046*"affected" + 0.043*"today" + 0.042*"violence" + 0.037*"loved" + 0.035*"pro"
+2020-08-07 12:24:56,873 : INFO : topic #6 (0.125): 0.124*"apple" + 0.104*"today" + 0.055*"store" + 0.054*"new" + 0.053*"many" + 0.047*"thrilled" + 0.046*"meet" + 0.043*"future" + 0.032*"people" + 0.031*"life"
+2020-08-07 12:24:56,873 : INFO : topic diff=0.124950, rho=0.212718
+2020-08-07 12:24:56,877 : INFO : -4.817 per-word bound, 28.2 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:56,877 : INFO : PROGRESS: pass 16, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:56,878 : INFO : PROGRESS: pass 16, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:56,879 : INFO : PROGRESS: pass 16, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:56,880 : INFO : PROGRESS: pass 16, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:56,881 : INFO : PROGRESS: pass 16, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:56,882 : INFO : PROGRESS: pass 16, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:56,882 : INFO : PROGRESS: pass 16, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,018 : INFO : topic #0 (0.125): 0.084*"year" + 0.078*"see" + 0.053*"world" + 0.049*"developer" + 0.048*"day" + 0.047*"time" + 0.043*"week" + 0.036*"today" + 0.035*"ago" + 0.033*"powerful"
+2020-08-07 12:24:57,019 : INFO : topic #2 (0.125): 0.149*"u" + 0.051*"life" + 0.049*"celebrate" + 0.046*"every" + 0.044*"congratulation" + 0.040*"let" + 0.038*"make" + 0.036*"day" + 0.035*"today" + 0.032*"remember"
+2020-08-07 12:24:57,019 : INFO : topic #4 (0.125): 0.081*"apple" + 0.075*"never" + 0.056*"place" + 0.055*"story" + 0.054*"shotoniphone" + 0.052*"enjoy" + 0.051*"country" + 0.051*"like" + 0.046*"woman" + 0.045*"always"
+2020-08-07 12:24:57,019 : INFO : topic #1 (0.125): 0.098*"heart" + 0.084*"family" + 0.078*"one" + 0.077*"community" + 0.046*"victim" + 0.046*"affected" + 0.043*"today" + 0.042*"violence" + 0.037*"loved" + 0.035*"pro"
+2020-08-07 12:24:57,019 : INFO : topic #3 (0.125): 0.129*"thank" + 0.107*"work" + 0.092*"proud" + 0.078*"team" + 0.065*"great" + 0.056*"friend" + 0.049*"apple" + 0.041*"visit" + 0.039*"back" + 0.038*"help"
+2020-08-07 12:24:57,020 : INFO : topic diff=0.114245, rho=0.208063
+2020-08-07 12:24:57,023 : INFO : -4.812 per-word bound, 28.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,024 : INFO : PROGRESS: pass 17, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,025 : INFO : PROGRESS: pass 17, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,025 : INFO : PROGRESS: pass 17, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,027 : INFO : PROGRESS: pass 17, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,028 : INFO : PROGRESS: pass 17, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,028 : INFO : PROGRESS: pass 17, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,028 : INFO : PROGRESS: pass 17, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,151 : INFO : topic #1 (0.125): 0.101*"heart" + 0.084*"family" + 0.079*"one" + 0.077*"community" + 0.047*"victim" + 0.046*"affected" + 0.043*"today" + 0.042*"violence" + 0.037*"loved" + 0.035*"pro"
+2020-08-07 12:24:57,151 : INFO : topic #7 (0.125): 0.182*"apple" + 0.082*"everyone" + 0.082*"around_world" + 0.065*"celebrating" + 0.054*"happy" + 0.042*"thank" + 0.040*"first" + 0.038*"day" + 0.035*"u" + 0.035*"wishing"
+2020-08-07 12:24:57,151 : INFO : topic #3 (0.125): 0.132*"thank" + 0.109*"work" + 0.094*"proud" + 0.079*"team" + 0.067*"great" + 0.055*"friend" + 0.049*"apple" + 0.041*"visit" + 0.039*"back" + 0.038*"help"
+2020-08-07 12:24:57,151 : INFO : topic #2 (0.125): 0.151*"u" + 0.051*"life" + 0.049*"celebrate" + 0.047*"every" + 0.045*"congratulation" + 0.040*"let" + 0.040*"make" + 0.037*"day" + 0.035*"today" + 0.032*"remember"
+2020-08-07 12:24:57,152 : INFO : topic #0 (0.125): 0.085*"year" + 0.078*"see" + 0.054*"world" + 0.051*"developer" + 0.047*"day" + 0.047*"time" + 0.043*"week" + 0.035*"today" + 0.035*"ago" + 0.033*"powerful"
+2020-08-07 12:24:57,152 : INFO : topic diff=0.105241, rho=0.203700
+2020-08-07 12:24:57,156 : INFO : -4.792 per-word bound, 27.7 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,156 : INFO : PROGRESS: pass 18, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,157 : INFO : PROGRESS: pass 18, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,158 : INFO : PROGRESS: pass 18, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,158 : INFO : PROGRESS: pass 18, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,160 : INFO : PROGRESS: pass 18, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,160 : INFO : PROGRESS: pass 18, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,160 : INFO : PROGRESS: pass 18, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,286 : INFO : topic #5 (0.125): 0.176*"thanks" + 0.122*"iphone" + 0.097*"new" + 0.080*"love" + 0.057*"student" + 0.047*"forward" + 0.039*"thing" + 0.037*"shotoniphone" + 0.027*"photo" + 0.026*"customer"
+2020-08-07 12:24:57,286 : INFO : topic #1 (0.125): 0.105*"heart" + 0.085*"family" + 0.079*"one" + 0.078*"community" + 0.047*"victim" + 0.046*"affected" + 0.043*"today" + 0.043*"violence" + 0.037*"loved" + 0.036*"pro"
+2020-08-07 12:24:57,287 : INFO : topic #2 (0.125): 0.152*"u" + 0.051*"life" + 0.050*"celebrate" + 0.049*"every" + 0.045*"congratulation" + 0.041*"make" + 0.041*"let" + 0.037*"day" + 0.035*"today" + 0.032*"remember"
+2020-08-07 12:24:57,287 : INFO : topic #3 (0.125): 0.136*"thank" + 0.111*"work" + 0.095*"proud" + 0.080*"team" + 0.068*"great" + 0.054*"friend" + 0.048*"apple" + 0.041*"visit" + 0.039*"back" + 0.038*"help"
+2020-08-07 12:24:57,287 : INFO : topic #0 (0.125): 0.086*"year" + 0.077*"see" + 0.054*"world" + 0.052*"developer" + 0.047*"time" + 0.047*"day" + 0.044*"week" + 0.035*"ago" + 0.035*"today" + 0.033*"powerful"
+2020-08-07 12:24:57,287 : INFO : topic diff=0.096551, rho=0.199601
+2020-08-07 12:24:57,292 : INFO : -4.777 per-word bound, 27.4 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,292 : INFO : PROGRESS: pass 19, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,292 : INFO : PROGRESS: pass 19, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,293 : INFO : PROGRESS: pass 19, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,295 : INFO : PROGRESS: pass 19, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,295 : INFO : PROGRESS: pass 19, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,295 : INFO : PROGRESS: pass 19, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,296 : INFO : PROGRESS: pass 19, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,421 : INFO : topic #2 (0.125): 0.154*"u" + 0.052*"life" + 0.050*"celebrate" + 0.050*"every" + 0.046*"congratulation" + 0.042*"make" + 0.041*"let" + 0.038*"day" + 0.035*"today" + 0.033*"remember"
+2020-08-07 12:24:57,421 : INFO : topic #6 (0.125): 0.138*"apple" + 0.103*"today" + 0.058*"new" + 0.055*"store" + 0.055*"many" + 0.050*"thrilled" + 0.046*"future" + 0.045*"meet" + 0.034*"great" + 0.032*"life"
+2020-08-07 12:24:57,421 : INFO : topic #3 (0.125): 0.138*"thank" + 0.113*"work" + 0.096*"proud" + 0.080*"team" + 0.070*"great" + 0.052*"friend" + 0.048*"apple" + 0.041*"visit" + 0.039*"back" + 0.038*"help"
+2020-08-07 12:24:57,421 : INFO : topic #5 (0.125): 0.178*"thanks" + 0.123*"iphone" + 0.098*"new" + 0.080*"love" + 0.057*"student" + 0.047*"forward" + 0.039*"thing" + 0.038*"shotoniphone" + 0.027*"photo" + 0.026*"customer"
+2020-08-07 12:24:57,422 : INFO : topic #7 (0.125): 0.178*"apple" + 0.086*"everyone" + 0.083*"around_world" + 0.066*"celebrating" + 0.055*"happy" + 0.043*"thank" + 0.040*"first" + 0.039*"day" + 0.036*"wishing" + 0.034*"u"
+2020-08-07 12:24:57,422 : INFO : topic diff=0.088519, rho=0.195740
+2020-08-07 12:24:57,426 : INFO : -4.773 per-word bound, 27.3 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,426 : INFO : PROGRESS: pass 20, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,427 : INFO : PROGRESS: pass 20, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,428 : INFO : PROGRESS: pass 20, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,429 : INFO : PROGRESS: pass 20, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,430 : INFO : PROGRESS: pass 20, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,431 : INFO : PROGRESS: pass 20, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,431 : INFO : PROGRESS: pass 20, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,576 : INFO : topic #0 (0.125): 0.088*"year" + 0.077*"see" + 0.055*"developer" + 0.055*"world" + 0.048*"time" + 0.046*"day" + 0.044*"week" + 0.036*"ago" + 0.035*"today" + 0.034*"powerful"
+2020-08-07 12:24:57,576 : INFO : topic #6 (0.125): 0.141*"apple" + 0.103*"today" + 0.059*"new" + 0.055*"store" + 0.055*"many" + 0.050*"thrilled" + 0.046*"future" + 0.045*"meet" + 0.035*"great" + 0.032*"life"
+2020-08-07 12:24:57,577 : INFO : topic #4 (0.125): 0.081*"apple" + 0.074*"never" + 0.060*"woman" + 0.060*"story" + 0.058*"country" + 0.054*"place" + 0.054*"like" + 0.054*"shotoniphone" + 0.052*"enjoy" + 0.049*"men"
+2020-08-07 12:24:57,577 : INFO : topic #3 (0.125): 0.141*"thank" + 0.114*"work" + 0.097*"proud" + 0.080*"team" + 0.071*"great" + 0.052*"friend" + 0.048*"apple" + 0.041*"visit" + 0.039*"back" + 0.037*"help"
+2020-08-07 12:24:57,577 : INFO : topic #1 (0.125): 0.114*"heart" + 0.085*"family" + 0.079*"one" + 0.078*"community" + 0.046*"victim" + 0.046*"affected" + 0.043*"today" + 0.042*"violence" + 0.037*"loved" + 0.036*"pro"
+2020-08-07 12:24:57,578 : INFO : topic diff=0.082126, rho=0.192095
+2020-08-07 12:24:57,585 : INFO : -4.781 per-word bound, 27.5 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,586 : INFO : PROGRESS: pass 21, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,586 : INFO : PROGRESS: pass 21, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,588 : INFO : PROGRESS: pass 21, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,589 : INFO : PROGRESS: pass 21, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,590 : INFO : PROGRESS: pass 21, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,591 : INFO : PROGRESS: pass 21, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,591 : INFO : PROGRESS: pass 21, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,708 : INFO : topic #5 (0.125): 0.184*"thanks" + 0.124*"iphone" + 0.100*"new" + 0.079*"love" + 0.058*"student" + 0.048*"forward" + 0.039*"thing" + 0.038*"shotoniphone" + 0.028*"photo" + 0.026*"customer"
+2020-08-07 12:24:57,709 : INFO : topic #3 (0.125): 0.143*"thank" + 0.115*"work" + 0.097*"proud" + 0.080*"team" + 0.073*"great" + 0.051*"friend" + 0.048*"apple" + 0.042*"visit" + 0.039*"back" + 0.037*"help"
+2020-08-07 12:24:57,709 : INFO : topic #2 (0.125): 0.156*"u" + 0.052*"life" + 0.051*"every" + 0.050*"celebrate" + 0.046*"congratulation" + 0.045*"make" + 0.041*"let" + 0.039*"day" + 0.035*"today" + 0.033*"remember"
+2020-08-07 12:24:57,709 : INFO : topic #7 (0.125): 0.175*"apple" + 0.089*"everyone" + 0.085*"around_world" + 0.067*"celebrating" + 0.057*"happy" + 0.043*"thank" + 0.040*"first" + 0.040*"day" + 0.037*"wishing" + 0.035*"customer"
+2020-08-07 12:24:57,709 : INFO : topic #4 (0.125): 0.081*"apple" + 0.074*"never" + 0.065*"woman" + 0.060*"story" + 0.058*"country" + 0.054*"like" + 0.054*"place" + 0.054*"shotoniphone" + 0.052*"enjoy" + 0.050*"men"
+2020-08-07 12:24:57,709 : INFO : topic diff=0.075712, rho=0.188646
+2020-08-07 12:24:57,714 : INFO : -4.764 per-word bound, 27.2 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,714 : INFO : PROGRESS: pass 22, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,715 : INFO : PROGRESS: pass 22, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,716 : INFO : PROGRESS: pass 22, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,717 : INFO : PROGRESS: pass 22, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,718 : INFO : PROGRESS: pass 22, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,719 : INFO : PROGRESS: pass 22, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,719 : INFO : PROGRESS: pass 22, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,834 : INFO : topic #6 (0.125): 0.147*"apple" + 0.102*"today" + 0.059*"new" + 0.056*"store" + 0.054*"many" + 0.052*"thrilled" + 0.046*"future" + 0.044*"meet" + 0.038*"great" + 0.032*"life"
+2020-08-07 12:24:57,834 : INFO : topic #0 (0.125): 0.089*"year" + 0.076*"see" + 0.057*"developer" + 0.055*"world" + 0.048*"time" + 0.045*"day" + 0.044*"week" + 0.036*"ago" + 0.035*"today" + 0.034*"powerful"
+2020-08-07 12:24:57,835 : INFO : topic #7 (0.125): 0.174*"apple" + 0.091*"everyone" + 0.086*"around_world" + 0.068*"celebrating" + 0.057*"happy" + 0.044*"thank" + 0.041*"first" + 0.040*"day" + 0.037*"wishing" + 0.035*"customer"
+2020-08-07 12:24:57,835 : INFO : topic #3 (0.125): 0.145*"thank" + 0.117*"work" + 0.098*"proud" + 0.081*"team" + 0.073*"great" + 0.051*"friend" + 0.046*"apple" + 0.042*"visit" + 0.040*"back" + 0.037*"help"
+2020-08-07 12:24:57,835 : INFO : topic #2 (0.125): 0.157*"u" + 0.052*"life" + 0.052*"every" + 0.051*"celebrate" + 0.046*"congratulation" + 0.046*"make" + 0.042*"let" + 0.039*"day" + 0.035*"today" + 0.033*"remember"
+2020-08-07 12:24:57,836 : INFO : topic diff=0.070447, rho=0.185376
+2020-08-07 12:24:57,840 : INFO : -4.758 per-word bound, 27.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,840 : INFO : PROGRESS: pass 23, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,841 : INFO : PROGRESS: pass 23, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,842 : INFO : PROGRESS: pass 23, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,854 : INFO : PROGRESS: pass 23, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,855 : INFO : PROGRESS: pass 23, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,856 : INFO : PROGRESS: pass 23, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,856 : INFO : PROGRESS: pass 23, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:57,963 : INFO : topic #3 (0.125): 0.146*"thank" + 0.118*"work" + 0.099*"proud" + 0.082*"team" + 0.074*"great" + 0.051*"friend" + 0.045*"apple" + 0.042*"visit" + 0.040*"back" + 0.037*"help"
+2020-08-07 12:24:57,963 : INFO : topic #7 (0.125): 0.173*"apple" + 0.093*"everyone" + 0.086*"around_world" + 0.068*"celebrating" + 0.058*"happy" + 0.044*"thank" + 0.041*"day" + 0.041*"first" + 0.038*"wishing" + 0.036*"customer"
+2020-08-07 12:24:57,964 : INFO : topic #4 (0.125): 0.079*"apple" + 0.073*"never" + 0.073*"woman" + 0.060*"story" + 0.059*"country" + 0.055*"like" + 0.053*"place" + 0.053*"shotoniphone" + 0.052*"men" + 0.051*"enjoy"
+2020-08-07 12:24:57,964 : INFO : topic #2 (0.125): 0.158*"u" + 0.053*"every" + 0.053*"life" + 0.051*"celebrate" + 0.047*"make" + 0.047*"congratulation" + 0.042*"let" + 0.039*"day" + 0.035*"today" + 0.033*"remember"
+2020-08-07 12:24:57,964 : INFO : topic #1 (0.125): 0.124*"heart" + 0.084*"family" + 0.079*"one" + 0.079*"community" + 0.047*"victim" + 0.047*"affected" + 0.044*"today" + 0.043*"violence" + 0.037*"loved" + 0.036*"pro"
+2020-08-07 12:24:57,965 : INFO : topic diff=0.065534, rho=0.182271
+2020-08-07 12:24:57,969 : INFO : -4.752 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:57,969 : INFO : PROGRESS: pass 24, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:57,970 : INFO : PROGRESS: pass 24, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:57,971 : INFO : PROGRESS: pass 24, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:57,972 : INFO : PROGRESS: pass 24, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:57,973 : INFO : PROGRESS: pass 24, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:57,973 : INFO : PROGRESS: pass 24, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:57,974 : INFO : PROGRESS: pass 24, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,101 : INFO : topic #1 (0.125): 0.126*"heart" + 0.084*"family" + 0.080*"one" + 0.079*"community" + 0.047*"victim" + 0.047*"affected" + 0.044*"today" + 0.043*"violence" + 0.038*"loved" + 0.036*"pro"
+2020-08-07 12:24:58,102 : INFO : topic #7 (0.125): 0.172*"apple" + 0.095*"everyone" + 0.087*"around_world" + 0.069*"celebrating" + 0.058*"happy" + 0.044*"thank" + 0.042*"day" + 0.041*"first" + 0.038*"wishing" + 0.036*"customer"
+2020-08-07 12:24:58,102 : INFO : topic #0 (0.125): 0.090*"year" + 0.076*"see" + 0.060*"developer" + 0.055*"world" + 0.049*"time" + 0.044*"day" + 0.044*"week" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,102 : INFO : topic #4 (0.125): 0.078*"apple" + 0.077*"woman" + 0.073*"never" + 0.061*"story" + 0.060*"country" + 0.055*"like" + 0.053*"place" + 0.053*"shotoniphone" + 0.052*"men" + 0.051*"enjoy"
+2020-08-07 12:24:58,102 : INFO : topic #5 (0.125): 0.190*"thanks" + 0.125*"iphone" + 0.101*"new" + 0.079*"love" + 0.058*"student" + 0.048*"forward" + 0.039*"thing" + 0.038*"shotoniphone" + 0.028*"photo" + 0.026*"customer"
+2020-08-07 12:24:58,102 : INFO : topic diff=0.060284, rho=0.179316
+2020-08-07 12:24:58,107 : INFO : -4.747 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,107 : INFO : PROGRESS: pass 25, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,108 : INFO : PROGRESS: pass 25, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,109 : INFO : PROGRESS: pass 25, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,110 : INFO : PROGRESS: pass 25, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,111 : INFO : PROGRESS: pass 25, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,112 : INFO : PROGRESS: pass 25, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,112 : INFO : PROGRESS: pass 25, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,240 : INFO : topic #0 (0.125): 0.090*"year" + 0.076*"see" + 0.061*"developer" + 0.055*"world" + 0.049*"time" + 0.044*"week" + 0.043*"day" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,240 : INFO : topic #5 (0.125): 0.192*"thanks" + 0.125*"iphone" + 0.101*"new" + 0.079*"love" + 0.058*"student" + 0.048*"forward" + 0.039*"thing" + 0.039*"shotoniphone" + 0.029*"photo" + 0.027*"customer"
+2020-08-07 12:24:58,241 : INFO : topic #7 (0.125): 0.170*"apple" + 0.096*"everyone" + 0.087*"around_world" + 0.069*"celebrating" + 0.058*"happy" + 0.045*"thank" + 0.042*"day" + 0.041*"first" + 0.038*"wishing" + 0.036*"customer"
+2020-08-07 12:24:58,241 : INFO : topic #6 (0.125): 0.157*"apple" + 0.100*"today" + 0.059*"new" + 0.056*"store" + 0.054*"many" + 0.053*"thrilled" + 0.046*"future" + 0.043*"great" + 0.043*"meet" + 0.030*"life"
+2020-08-07 12:24:58,242 : INFO : topic #2 (0.125): 0.160*"u" + 0.054*"every" + 0.054*"life" + 0.051*"celebrate" + 0.050*"make" + 0.047*"congratulation" + 0.042*"let" + 0.039*"day" + 0.035*"today" + 0.033*"remember"
+2020-08-07 12:24:58,242 : INFO : topic diff=0.055872, rho=0.176501
+2020-08-07 12:24:58,249 : INFO : -4.743 per-word bound, 26.8 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,249 : INFO : PROGRESS: pass 26, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,250 : INFO : PROGRESS: pass 26, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,251 : INFO : PROGRESS: pass 26, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,252 : INFO : PROGRESS: pass 26, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,254 : INFO : PROGRESS: pass 26, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,254 : INFO : PROGRESS: pass 26, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,254 : INFO : PROGRESS: pass 26, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,382 : INFO : topic #1 (0.125): 0.132*"heart" + 0.083*"family" + 0.080*"one" + 0.079*"community" + 0.047*"victim" + 0.047*"affected" + 0.045*"today" + 0.043*"violence" + 0.038*"loved" + 0.037*"pro"
+2020-08-07 12:24:58,382 : INFO : topic #0 (0.125): 0.091*"year" + 0.076*"see" + 0.062*"developer" + 0.055*"world" + 0.049*"time" + 0.044*"week" + 0.042*"day" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,382 : INFO : topic #7 (0.125): 0.168*"apple" + 0.098*"everyone" + 0.088*"around_world" + 0.070*"celebrating" + 0.058*"happy" + 0.046*"thank" + 0.043*"day" + 0.041*"first" + 0.038*"wishing" + 0.037*"customer"
+2020-08-07 12:24:58,383 : INFO : topic #4 (0.125): 0.083*"woman" + 0.076*"apple" + 0.073*"never" + 0.061*"story" + 0.060*"country" + 0.055*"like" + 0.054*"men" + 0.053*"place" + 0.052*"shotoniphone" + 0.051*"enjoy"
+2020-08-07 12:24:58,383 : INFO : topic #5 (0.125): 0.193*"thanks" + 0.125*"iphone" + 0.102*"new" + 0.078*"love" + 0.058*"student" + 0.048*"forward" + 0.039*"shotoniphone" + 0.039*"thing" + 0.029*"photo" + 0.027*"customer"
+2020-08-07 12:24:58,383 : INFO : topic diff=0.052929, rho=0.173814
+2020-08-07 12:24:58,387 : INFO : -4.741 per-word bound, 26.7 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,387 : INFO : PROGRESS: pass 27, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,388 : INFO : PROGRESS: pass 27, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,389 : INFO : PROGRESS: pass 27, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,390 : INFO : PROGRESS: pass 27, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,391 : INFO : PROGRESS: pass 27, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,391 : INFO : PROGRESS: pass 27, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,391 : INFO : PROGRESS: pass 27, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,508 : INFO : topic #7 (0.125): 0.167*"apple" + 0.100*"everyone" + 0.088*"around_world" + 0.070*"celebrating" + 0.059*"happy" + 0.046*"thank" + 0.045*"day" + 0.041*"first" + 0.038*"wishing" + 0.037*"customer"
+2020-08-07 12:24:58,508 : INFO : topic #5 (0.125): 0.194*"thanks" + 0.125*"iphone" + 0.103*"new" + 0.078*"love" + 0.058*"student" + 0.048*"forward" + 0.040*"shotoniphone" + 0.039*"thing" + 0.029*"photo" + 0.027*"customer"
+2020-08-07 12:24:58,508 : INFO : topic #6 (0.125): 0.164*"apple" + 0.100*"today" + 0.058*"new" + 0.056*"store" + 0.054*"thrilled" + 0.053*"many" + 0.046*"future" + 0.046*"great" + 0.043*"meet" + 0.029*"life"
+2020-08-07 12:24:58,509 : INFO : topic #2 (0.125): 0.162*"u" + 0.055*"every" + 0.054*"life" + 0.052*"make" + 0.051*"celebrate" + 0.047*"congratulation" + 0.042*"let" + 0.040*"day" + 0.036*"today" + 0.033*"remember"
+2020-08-07 12:24:58,509 : INFO : topic #0 (0.125): 0.091*"year" + 0.076*"see" + 0.063*"developer" + 0.056*"world" + 0.049*"time" + 0.044*"week" + 0.041*"day" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,509 : INFO : topic diff=0.050153, rho=0.171247
+2020-08-07 12:24:58,513 : INFO : -4.739 per-word bound, 26.7 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,513 : INFO : PROGRESS: pass 28, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,514 : INFO : PROGRESS: pass 28, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,515 : INFO : PROGRESS: pass 28, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,516 : INFO : PROGRESS: pass 28, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,517 : INFO : PROGRESS: pass 28, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,518 : INFO : PROGRESS: pass 28, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,518 : INFO : PROGRESS: pass 28, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,625 : INFO : topic #4 (0.125): 0.088*"woman" + 0.075*"apple" + 0.073*"never" + 0.061*"story" + 0.061*"country" + 0.055*"like" + 0.054*"men" + 0.053*"place" + 0.053*"enjoy" + 0.051*"shotoniphone"
+2020-08-07 12:24:58,625 : INFO : topic #0 (0.125): 0.092*"year" + 0.076*"see" + 0.064*"developer" + 0.056*"world" + 0.049*"time" + 0.044*"week" + 0.040*"day" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,625 : INFO : topic #5 (0.125): 0.195*"thanks" + 0.125*"iphone" + 0.103*"new" + 0.078*"love" + 0.058*"student" + 0.048*"forward" + 0.040*"shotoniphone" + 0.039*"thing" + 0.030*"photo" + 0.027*"customer"
+2020-08-07 12:24:58,625 : INFO : topic #3 (0.125): 0.151*"thank" + 0.124*"work" + 0.105*"proud" + 0.084*"team" + 0.074*"great" + 0.051*"friend" + 0.042*"visit" + 0.042*"apple" + 0.040*"back" + 0.036*"help"
+2020-08-07 12:24:58,626 : INFO : topic #6 (0.125): 0.167*"apple" + 0.099*"today" + 0.059*"new" + 0.056*"store" + 0.055*"thrilled" + 0.053*"many" + 0.046*"great" + 0.046*"future" + 0.043*"meet" + 0.029*"team"
+2020-08-07 12:24:58,626 : INFO : topic diff=0.047242, rho=0.168790
+2020-08-07 12:24:58,630 : INFO : -4.737 per-word bound, 26.7 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,630 : INFO : PROGRESS: pass 29, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,631 : INFO : PROGRESS: pass 29, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,632 : INFO : PROGRESS: pass 29, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,633 : INFO : PROGRESS: pass 29, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,634 : INFO : PROGRESS: pass 29, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,634 : INFO : PROGRESS: pass 29, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,635 : INFO : PROGRESS: pass 29, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,747 : INFO : topic #1 (0.125): 0.142*"heart" + 0.080*"family" + 0.080*"community" + 0.080*"one" + 0.047*"victim" + 0.047*"affected" + 0.046*"today" + 0.043*"violence" + 0.038*"pro" + 0.038*"loved"
+2020-08-07 12:24:58,747 : INFO : topic #6 (0.125): 0.171*"apple" + 0.099*"today" + 0.058*"new" + 0.056*"store" + 0.055*"thrilled" + 0.053*"many" + 0.047*"great" + 0.046*"future" + 0.043*"meet" + 0.030*"team"
+2020-08-07 12:24:58,748 : INFO : topic #4 (0.125): 0.090*"woman" + 0.075*"apple" + 0.073*"never" + 0.061*"story" + 0.061*"country" + 0.055*"like" + 0.055*"men" + 0.053*"enjoy" + 0.053*"place" + 0.051*"shotoniphone"
+2020-08-07 12:24:58,748 : INFO : topic #2 (0.125): 0.164*"u" + 0.056*"every" + 0.054*"life" + 0.053*"make" + 0.051*"celebrate" + 0.047*"congratulation" + 0.042*"let" + 0.040*"day" + 0.036*"today" + 0.034*"people"
+2020-08-07 12:24:58,748 : INFO : topic #7 (0.125): 0.163*"apple" + 0.102*"everyone" + 0.089*"around_world" + 0.071*"celebrating" + 0.059*"happy" + 0.047*"day" + 0.046*"thank" + 0.041*"first" + 0.039*"wishing" + 0.037*"customer"
+2020-08-07 12:24:58,748 : INFO : topic diff=0.044212, rho=0.166436
+2020-08-07 12:24:58,752 : INFO : -4.736 per-word bound, 26.7 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,752 : INFO : PROGRESS: pass 30, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,772 : INFO : PROGRESS: pass 30, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,773 : INFO : PROGRESS: pass 30, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,774 : INFO : PROGRESS: pass 30, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,775 : INFO : PROGRESS: pass 30, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,776 : INFO : PROGRESS: pass 30, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,776 : INFO : PROGRESS: pass 30, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,867 : INFO : topic #1 (0.125): 0.145*"heart" + 0.080*"community" + 0.080*"one" + 0.080*"family" + 0.047*"victim" + 0.047*"affected" + 0.046*"today" + 0.043*"violence" + 0.039*"pro" + 0.038*"loved"
+2020-08-07 12:24:58,867 : INFO : topic #6 (0.125): 0.174*"apple" + 0.098*"today" + 0.058*"new" + 0.055*"store" + 0.055*"thrilled" + 0.053*"many" + 0.048*"great" + 0.046*"future" + 0.042*"meet" + 0.030*"team"
+2020-08-07 12:24:58,867 : INFO : topic #4 (0.125): 0.091*"woman" + 0.075*"apple" + 0.073*"never" + 0.061*"story" + 0.061*"country" + 0.055*"like" + 0.055*"men" + 0.054*"enjoy" + 0.053*"place" + 0.050*"shotoniphone"
+2020-08-07 12:24:58,868 : INFO : topic #0 (0.125): 0.093*"year" + 0.076*"see" + 0.066*"developer" + 0.056*"world" + 0.050*"time" + 0.044*"week" + 0.038*"day" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,868 : INFO : topic #5 (0.125): 0.197*"thanks" + 0.125*"iphone" + 0.103*"new" + 0.078*"love" + 0.058*"student" + 0.048*"forward" + 0.040*"shotoniphone" + 0.039*"thing" + 0.030*"photo" + 0.027*"customer"
+2020-08-07 12:24:58,868 : INFO : topic diff=0.041723, rho=0.164177
+2020-08-07 12:24:58,872 : INFO : -4.734 per-word bound, 26.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,873 : INFO : PROGRESS: pass 31, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,873 : INFO : PROGRESS: pass 31, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,874 : INFO : PROGRESS: pass 31, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,875 : INFO : PROGRESS: pass 31, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:58,876 : INFO : PROGRESS: pass 31, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:58,876 : INFO : PROGRESS: pass 31, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:58,877 : INFO : PROGRESS: pass 31, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:58,985 : INFO : topic #6 (0.125): 0.180*"apple" + 0.097*"today" + 0.058*"new" + 0.055*"thrilled" + 0.055*"store" + 0.052*"many" + 0.049*"great" + 0.045*"future" + 0.042*"meet" + 0.030*"team"
+2020-08-07 12:24:58,985 : INFO : topic #3 (0.125): 0.156*"thank" + 0.127*"work" + 0.107*"proud" + 0.085*"team" + 0.073*"great" + 0.051*"friend" + 0.042*"visit" + 0.040*"apple" + 0.039*"back" + 0.035*"help"
+2020-08-07 12:24:58,985 : INFO : topic #2 (0.125): 0.166*"u" + 0.057*"every" + 0.054*"make" + 0.054*"life" + 0.052*"celebrate" + 0.048*"congratulation" + 0.043*"let" + 0.040*"day" + 0.036*"today" + 0.034*"people"
+2020-08-07 12:24:58,986 : INFO : topic #0 (0.125): 0.094*"year" + 0.076*"see" + 0.067*"developer" + 0.056*"world" + 0.051*"time" + 0.044*"week" + 0.038*"day" + 0.037*"ago" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:58,986 : INFO : topic #4 (0.125): 0.093*"woman" + 0.075*"apple" + 0.073*"never" + 0.061*"story" + 0.061*"country" + 0.055*"like" + 0.055*"men" + 0.054*"enjoy" + 0.053*"place" + 0.050*"shotoniphone"
+2020-08-07 12:24:58,986 : INFO : topic diff=0.039459, rho=0.162008
+2020-08-07 12:24:58,990 : INFO : -4.733 per-word bound, 26.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:58,991 : INFO : PROGRESS: pass 32, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:58,991 : INFO : PROGRESS: pass 32, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:58,992 : INFO : PROGRESS: pass 32, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:58,994 : INFO : PROGRESS: pass 32, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,010 : INFO : PROGRESS: pass 32, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,010 : INFO : PROGRESS: pass 32, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,010 : INFO : PROGRESS: pass 32, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,111 : INFO : topic #3 (0.125): 0.157*"thank" + 0.128*"work" + 0.107*"proud" + 0.086*"team" + 0.073*"great" + 0.051*"friend" + 0.042*"visit" + 0.040*"apple" + 0.039*"back" + 0.035*"help"
+2020-08-07 12:24:59,112 : INFO : topic #7 (0.125): 0.155*"apple" + 0.106*"everyone" + 0.092*"around_world" + 0.072*"celebrating" + 0.060*"happy" + 0.051*"day" + 0.047*"thank" + 0.041*"first" + 0.040*"wishing" + 0.038*"customer"
+2020-08-07 12:24:59,112 : INFO : topic #1 (0.125): 0.149*"heart" + 0.081*"community" + 0.080*"one" + 0.079*"family" + 0.047*"victim" + 0.047*"affected" + 0.046*"today" + 0.043*"violence" + 0.040*"pro" + 0.038*"loved"
+2020-08-07 12:24:59,112 : INFO : topic #5 (0.125): 0.200*"thanks" + 0.125*"iphone" + 0.103*"new" + 0.077*"love" + 0.058*"student" + 0.048*"forward" + 0.040*"shotoniphone" + 0.039*"thing" + 0.030*"photo" + 0.028*"customer"
+2020-08-07 12:24:59,112 : INFO : topic #0 (0.125): 0.094*"year" + 0.076*"see" + 0.068*"developer" + 0.056*"world" + 0.051*"time" + 0.044*"week" + 0.038*"ago" + 0.037*"day" + 0.034*"today" + 0.034*"powerful"
+2020-08-07 12:24:59,113 : INFO : topic diff=0.037397, rho=0.159923
+2020-08-07 12:24:59,117 : INFO : -4.732 per-word bound, 26.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,117 : INFO : PROGRESS: pass 33, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,118 : INFO : PROGRESS: pass 33, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,119 : INFO : PROGRESS: pass 33, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,121 : INFO : PROGRESS: pass 33, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,122 : INFO : PROGRESS: pass 33, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,122 : INFO : PROGRESS: pass 33, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,123 : INFO : PROGRESS: pass 33, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,235 : INFO : topic #6 (0.125): 0.190*"apple" + 0.096*"today" + 0.056*"new" + 0.056*"thrilled" + 0.055*"store" + 0.052*"many" + 0.049*"great" + 0.045*"future" + 0.042*"meet" + 0.031*"team"
+2020-08-07 12:24:59,236 : INFO : topic #2 (0.125): 0.168*"u" + 0.057*"every" + 0.055*"make" + 0.053*"life" + 0.052*"celebrate" + 0.048*"congratulation" + 0.043*"let" + 0.040*"day" + 0.036*"today" + 0.035*"people"
+2020-08-07 12:24:59,236 : INFO : topic #7 (0.125): 0.153*"apple" + 0.107*"everyone" + 0.093*"around_world" + 0.072*"celebrating" + 0.061*"happy" + 0.052*"day" + 0.047*"thank" + 0.042*"first" + 0.040*"wishing" + 0.038*"customer"
+2020-08-07 12:24:59,236 : INFO : topic #4 (0.125): 0.095*"woman" + 0.075*"apple" + 0.073*"never" + 0.062*"story" + 0.062*"country" + 0.056*"like" + 0.056*"men" + 0.055*"enjoy" + 0.053*"place" + 0.050*"shotoniphone"
+2020-08-07 12:24:59,236 : INFO : topic #1 (0.125): 0.150*"heart" + 0.081*"community" + 0.080*"one" + 0.078*"family" + 0.047*"victim" + 0.047*"affected" + 0.046*"today" + 0.043*"violence" + 0.040*"pro" + 0.038*"loved"
+2020-08-07 12:24:59,236 : INFO : topic diff=0.035474, rho=0.157917
+2020-08-07 12:24:59,241 : INFO : -4.731 per-word bound, 26.6 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,241 : INFO : PROGRESS: pass 34, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,242 : INFO : PROGRESS: pass 34, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,243 : INFO : PROGRESS: pass 34, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,244 : INFO : PROGRESS: pass 34, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,245 : INFO : PROGRESS: pass 34, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,246 : INFO : PROGRESS: pass 34, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,246 : INFO : PROGRESS: pass 34, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,350 : INFO : topic #2 (0.125): 0.169*"u" + 0.058*"every" + 0.056*"make" + 0.053*"life" + 0.052*"celebrate" + 0.048*"congratulation" + 0.043*"let" + 0.040*"day" + 0.036*"today" + 0.035*"people"
+2020-08-07 12:24:59,351 : INFO : topic #0 (0.125): 0.095*"year" + 0.076*"see" + 0.069*"developer" + 0.056*"world" + 0.052*"time" + 0.045*"week" + 0.038*"ago" + 0.036*"day" + 0.034*"powerful" + 0.034*"today"
+2020-08-07 12:24:59,351 : INFO : topic #4 (0.125): 0.096*"woman" + 0.075*"apple" + 0.073*"never" + 0.062*"story" + 0.062*"country" + 0.056*"men" + 0.056*"like" + 0.055*"enjoy" + 0.053*"place" + 0.050*"shotoniphone"
+2020-08-07 12:24:59,351 : INFO : topic #1 (0.125): 0.151*"heart" + 0.081*"community" + 0.080*"one" + 0.078*"family" + 0.047*"victim" + 0.047*"affected" + 0.046*"today" + 0.043*"violence" + 0.041*"pro" + 0.038*"ipad"
+2020-08-07 12:24:59,351 : INFO : topic #7 (0.125): 0.150*"apple" + 0.108*"everyone" + 0.094*"around_world" + 0.073*"celebrating" + 0.061*"happy" + 0.052*"day" + 0.047*"thank" + 0.042*"first" + 0.040*"wishing" + 0.038*"customer"
+2020-08-07 12:24:59,352 : INFO : topic diff=0.033655, rho=0.155984
+2020-08-07 12:24:59,357 : INFO : -4.747 per-word bound, 26.8 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,357 : INFO : PROGRESS: pass 35, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,358 : INFO : PROGRESS: pass 35, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,359 : INFO : PROGRESS: pass 35, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,361 : INFO : PROGRESS: pass 35, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,362 : INFO : PROGRESS: pass 35, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,362 : INFO : PROGRESS: pass 35, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,362 : INFO : PROGRESS: pass 35, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,476 : INFO : topic #1 (0.125): 0.152*"heart" + 0.082*"community" + 0.080*"one" + 0.078*"family" + 0.047*"victim" + 0.047*"affected" + 0.046*"today" + 0.043*"violence" + 0.041*"pro" + 0.038*"ipad"
+2020-08-07 12:24:59,476 : INFO : topic #4 (0.125): 0.097*"woman" + 0.075*"apple" + 0.073*"never" + 0.062*"story" + 0.062*"country" + 0.056*"men" + 0.056*"like" + 0.055*"enjoy" + 0.053*"place" + 0.051*"right"
+2020-08-07 12:24:59,476 : INFO : topic #2 (0.125): 0.170*"u" + 0.058*"every" + 0.056*"make" + 0.052*"life" + 0.052*"celebrate" + 0.048*"congratulation" + 0.043*"let" + 0.040*"day" + 0.036*"today" + 0.035*"people"
+2020-08-07 12:24:59,477 : INFO : topic #5 (0.125): 0.203*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.077*"love" + 0.058*"student" + 0.048*"forward" + 0.040*"shotoniphone" + 0.040*"thing" + 0.030*"photo" + 0.029*"customer"
+2020-08-07 12:24:59,477 : INFO : topic #3 (0.125): 0.160*"thank" + 0.131*"work" + 0.109*"proud" + 0.087*"team" + 0.072*"great" + 0.052*"friend" + 0.041*"visit" + 0.039*"back" + 0.038*"apple" + 0.035*"help"
+2020-08-07 12:24:59,477 : INFO : topic diff=0.031770, rho=0.154120
+2020-08-07 12:24:59,481 : INFO : -4.758 per-word bound, 27.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,481 : INFO : PROGRESS: pass 36, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,482 : INFO : PROGRESS: pass 36, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,483 : INFO : PROGRESS: pass 36, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,484 : INFO : PROGRESS: pass 36, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,486 : INFO : PROGRESS: pass 36, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,486 : INFO : PROGRESS: pass 36, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,486 : INFO : PROGRESS: pass 36, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,591 : INFO : topic #1 (0.125): 0.153*"heart" + 0.082*"community" + 0.079*"one" + 0.077*"family" + 0.047*"victim" + 0.047*"affected" + 0.047*"today" + 0.043*"violence" + 0.041*"pro" + 0.039*"ipad"
+2020-08-07 12:24:59,591 : INFO : topic #4 (0.125): 0.098*"woman" + 0.075*"apple" + 0.073*"never" + 0.062*"story" + 0.062*"country" + 0.056*"men" + 0.056*"like" + 0.056*"enjoy" + 0.053*"place" + 0.052*"right"
+2020-08-07 12:24:59,592 : INFO : topic #0 (0.125): 0.096*"year" + 0.076*"see" + 0.070*"developer" + 0.056*"world" + 0.052*"time" + 0.045*"week" + 0.038*"ago" + 0.036*"day" + 0.034*"powerful" + 0.034*"today"
+2020-08-07 12:24:59,592 : INFO : topic #5 (0.125): 0.204*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.077*"love" + 0.058*"student" + 0.047*"forward" + 0.041*"thing" + 0.040*"shotoniphone" + 0.030*"photo" + 0.029*"customer"
+2020-08-07 12:24:59,592 : INFO : topic #7 (0.125): 0.146*"apple" + 0.111*"everyone" + 0.096*"around_world" + 0.073*"celebrating" + 0.062*"happy" + 0.053*"day" + 0.047*"thank" + 0.042*"first" + 0.040*"wishing" + 0.039*"customer"
+2020-08-07 12:24:59,592 : INFO : topic diff=0.030069, rho=0.152322
+2020-08-07 12:24:59,596 : INFO : -4.757 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,597 : INFO : PROGRESS: pass 37, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,597 : INFO : PROGRESS: pass 37, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,598 : INFO : PROGRESS: pass 37, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,599 : INFO : PROGRESS: pass 37, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,600 : INFO : PROGRESS: pass 37, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,601 : INFO : PROGRESS: pass 37, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,601 : INFO : PROGRESS: pass 37, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,714 : INFO : topic #4 (0.125): 0.098*"woman" + 0.075*"apple" + 0.074*"never" + 0.062*"story" + 0.062*"country" + 0.056*"men" + 0.056*"enjoy" + 0.056*"like" + 0.054*"right" + 0.053*"place"
+2020-08-07 12:24:59,715 : INFO : topic #7 (0.125): 0.144*"apple" + 0.112*"everyone" + 0.097*"around_world" + 0.073*"celebrating" + 0.062*"happy" + 0.054*"day" + 0.047*"thank" + 0.042*"first" + 0.041*"wishing" + 0.039*"customer"
+2020-08-07 12:24:59,715 : INFO : topic #6 (0.125): 0.205*"apple" + 0.095*"today" + 0.056*"thrilled" + 0.054*"new" + 0.054*"store" + 0.051*"many" + 0.050*"great" + 0.044*"future" + 0.041*"meet" + 0.033*"team"
+2020-08-07 12:24:59,715 : INFO : topic #1 (0.125): 0.154*"heart" + 0.082*"community" + 0.079*"one" + 0.077*"family" + 0.047*"victim" + 0.047*"affected" + 0.047*"today" + 0.042*"violence" + 0.042*"pro" + 0.039*"ipad"
+2020-08-07 12:24:59,715 : INFO : topic #5 (0.125): 0.204*"thanks" + 0.124*"iphone" + 0.104*"new" + 0.077*"love" + 0.058*"student" + 0.047*"forward" + 0.041*"thing" + 0.040*"shotoniphone" + 0.030*"photo" + 0.030*"customer"
+2020-08-07 12:24:59,716 : INFO : topic diff=0.028776, rho=0.150585
+2020-08-07 12:24:59,720 : INFO : -4.756 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,720 : INFO : PROGRESS: pass 38, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,721 : INFO : PROGRESS: pass 38, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,722 : INFO : PROGRESS: pass 38, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,723 : INFO : PROGRESS: pass 38, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,724 : INFO : PROGRESS: pass 38, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,725 : INFO : PROGRESS: pass 38, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,725 : INFO : PROGRESS: pass 38, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,826 : INFO : topic #5 (0.125): 0.205*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.077*"love" + 0.058*"student" + 0.047*"forward" + 0.041*"thing" + 0.041*"shotoniphone" + 0.030*"customer" + 0.030*"photo"
+2020-08-07 12:24:59,827 : INFO : topic #2 (0.125): 0.173*"u" + 0.058*"every" + 0.057*"make" + 0.053*"celebrate" + 0.051*"life" + 0.049*"congratulation" + 0.043*"let" + 0.041*"day" + 0.036*"today" + 0.035*"people"
+2020-08-07 12:24:59,827 : INFO : topic #7 (0.125): 0.143*"apple" + 0.113*"everyone" + 0.097*"around_world" + 0.074*"celebrating" + 0.062*"happy" + 0.054*"day" + 0.047*"thank" + 0.042*"first" + 0.041*"wishing" + 0.039*"customer"
+2020-08-07 12:24:59,827 : INFO : topic #3 (0.125): 0.163*"thank" + 0.134*"work" + 0.111*"proud" + 0.088*"team" + 0.072*"great" + 0.052*"friend" + 0.041*"visit" + 0.038*"back" + 0.035*"apple" + 0.034*"help"
+2020-08-07 12:24:59,827 : INFO : topic #6 (0.125): 0.208*"apple" + 0.095*"today" + 0.056*"thrilled" + 0.055*"new" + 0.054*"store" + 0.051*"many" + 0.050*"great" + 0.044*"future" + 0.041*"meet" + 0.033*"team"
+2020-08-07 12:24:59,828 : INFO : topic diff=0.027370, rho=0.148906
+2020-08-07 12:24:59,832 : INFO : -4.755 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,832 : INFO : PROGRESS: pass 39, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,832 : INFO : PROGRESS: pass 39, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,833 : INFO : PROGRESS: pass 39, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,835 : INFO : PROGRESS: pass 39, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,836 : INFO : PROGRESS: pass 39, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,836 : INFO : PROGRESS: pass 39, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,837 : INFO : PROGRESS: pass 39, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:24:59,942 : INFO : topic #4 (0.125): 0.100*"woman" + 0.076*"apple" + 0.074*"never" + 0.063*"story" + 0.063*"country" + 0.057*"men" + 0.057*"enjoy" + 0.056*"like" + 0.056*"right" + 0.054*"place"
+2020-08-07 12:24:59,942 : INFO : topic #5 (0.125): 0.206*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.077*"love" + 0.058*"student" + 0.047*"forward" + 0.041*"thing" + 0.041*"shotoniphone" + 0.030*"customer" + 0.030*"photo"
+2020-08-07 12:24:59,942 : INFO : topic #0 (0.125): 0.098*"year" + 0.076*"see" + 0.071*"developer" + 0.057*"world" + 0.053*"time" + 0.045*"week" + 0.038*"ago" + 0.035*"day" + 0.035*"powerful" + 0.034*"today"
+2020-08-07 12:24:59,943 : INFO : topic #2 (0.125): 0.174*"u" + 0.059*"every" + 0.057*"make" + 0.053*"celebrate" + 0.051*"life" + 0.049*"congratulation" + 0.043*"let" + 0.040*"day" + 0.036*"today" + 0.036*"people"
+2020-08-07 12:24:59,943 : INFO : topic #6 (0.125): 0.211*"apple" + 0.095*"today" + 0.056*"thrilled" + 0.054*"new" + 0.054*"store" + 0.051*"many" + 0.050*"great" + 0.044*"future" + 0.041*"meet" + 0.033*"team"
+2020-08-07 12:24:59,943 : INFO : topic diff=0.025712, rho=0.147282
+2020-08-07 12:24:59,947 : INFO : -4.754 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:24:59,947 : INFO : PROGRESS: pass 40, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:24:59,948 : INFO : PROGRESS: pass 40, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:24:59,949 : INFO : PROGRESS: pass 40, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:24:59,950 : INFO : PROGRESS: pass 40, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:24:59,951 : INFO : PROGRESS: pass 40, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:24:59,952 : INFO : PROGRESS: pass 40, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:24:59,952 : INFO : PROGRESS: pass 40, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,069 : INFO : topic #3 (0.125): 0.164*"thank" + 0.137*"work" + 0.112*"proud" + 0.088*"team" + 0.072*"great" + 0.051*"friend" + 0.041*"visit" + 0.038*"back" + 0.035*"th" + 0.034*"help"
+2020-08-07 12:25:00,070 : INFO : topic #7 (0.125): 0.141*"apple" + 0.115*"everyone" + 0.098*"around_world" + 0.074*"celebrating" + 0.063*"happy" + 0.055*"day" + 0.047*"thank" + 0.042*"first" + 0.041*"wishing" + 0.040*"customer"
+2020-08-07 12:25:00,070 : INFO : topic #0 (0.125): 0.098*"year" + 0.076*"see" + 0.071*"developer" + 0.058*"world" + 0.053*"time" + 0.045*"week" + 0.038*"ago" + 0.035*"day" + 0.035*"powerful" + 0.034*"today"
+2020-08-07 12:25:00,070 : INFO : topic #6 (0.125): 0.213*"apple" + 0.095*"today" + 0.056*"thrilled" + 0.054*"store" + 0.054*"new" + 0.051*"many" + 0.050*"great" + 0.044*"future" + 0.041*"meet" + 0.033*"team"
+2020-08-07 12:25:00,071 : INFO : topic #4 (0.125): 0.100*"woman" + 0.076*"apple" + 0.074*"never" + 0.064*"story" + 0.063*"country" + 0.057*"men" + 0.057*"enjoy" + 0.056*"right" + 0.056*"like" + 0.054*"place"
+2020-08-07 12:25:00,071 : INFO : topic diff=0.024774, rho=0.145710
+2020-08-07 12:25:00,076 : INFO : -4.753 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,076 : INFO : PROGRESS: pass 41, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,076 : INFO : PROGRESS: pass 41, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,077 : INFO : PROGRESS: pass 41, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,079 : INFO : PROGRESS: pass 41, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,080 : INFO : PROGRESS: pass 41, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,080 : INFO : PROGRESS: pass 41, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,137 : INFO : PROGRESS: pass 41, dispatched chunk #6 = documents up to #610/610, outstanding queue size 5
+2020-08-07 12:25:00,183 : INFO : topic #7 (0.125): 0.140*"apple" + 0.116*"everyone" + 0.099*"around_world" + 0.074*"celebrating" + 0.063*"happy" + 0.055*"day" + 0.047*"thank" + 0.042*"wishing" + 0.041*"first" + 0.040*"customer"
+2020-08-07 12:25:00,183 : INFO : topic #0 (0.125): 0.099*"year" + 0.076*"see" + 0.071*"developer" + 0.058*"world" + 0.053*"time" + 0.045*"week" + 0.038*"ago" + 0.035*"day" + 0.035*"powerful" + 0.034*"today"
+2020-08-07 12:25:00,183 : INFO : topic #5 (0.125): 0.206*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.041*"thing" + 0.041*"shotoniphone" + 0.031*"customer" + 0.030*"photo"
+2020-08-07 12:25:00,183 : INFO : topic #4 (0.125): 0.101*"woman" + 0.076*"apple" + 0.074*"never" + 0.064*"story" + 0.063*"country" + 0.057*"right" + 0.057*"men" + 0.057*"enjoy" + 0.056*"like" + 0.054*"place"
+2020-08-07 12:25:00,184 : INFO : topic #6 (0.125): 0.216*"apple" + 0.094*"today" + 0.056*"thrilled" + 0.054*"new" + 0.054*"store" + 0.051*"many" + 0.050*"great" + 0.044*"future" + 0.041*"meet" + 0.034*"team"
+2020-08-07 12:25:00,184 : INFO : topic diff=0.023533, rho=0.144187
+2020-08-07 12:25:00,188 : INFO : -4.753 per-word bound, 27.0 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,188 : INFO : PROGRESS: pass 42, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,189 : INFO : PROGRESS: pass 42, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,190 : INFO : PROGRESS: pass 42, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,191 : INFO : PROGRESS: pass 42, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,193 : INFO : PROGRESS: pass 42, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,193 : INFO : PROGRESS: pass 42, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,193 : INFO : PROGRESS: pass 42, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,295 : INFO : topic #4 (0.125): 0.101*"woman" + 0.076*"apple" + 0.075*"never" + 0.064*"story" + 0.063*"country" + 0.058*"right" + 0.057*"men" + 0.057*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:00,295 : INFO : topic #1 (0.125): 0.156*"heart" + 0.084*"community" + 0.079*"one" + 0.077*"family" + 0.047*"today" + 0.046*"victim" + 0.046*"affected" + 0.043*"pro" + 0.042*"violence" + 0.041*"ipad"
+2020-08-07 12:25:00,295 : INFO : topic #7 (0.125): 0.139*"apple" + 0.117*"everyone" + 0.099*"around_world" + 0.074*"celebrating" + 0.063*"happy" + 0.055*"day" + 0.047*"thank" + 0.042*"wishing" + 0.041*"first" + 0.040*"customer"
+2020-08-07 12:25:00,296 : INFO : topic #3 (0.125): 0.165*"thank" + 0.140*"work" + 0.113*"proud" + 0.088*"team" + 0.072*"great" + 0.051*"friend" + 0.041*"visit" + 0.038*"back" + 0.035*"th" + 0.034*"help"
+2020-08-07 12:25:00,296 : INFO : topic #2 (0.125): 0.176*"u" + 0.059*"every" + 0.058*"make" + 0.053*"celebrate" + 0.051*"life" + 0.049*"congratulation" + 0.044*"let" + 0.040*"day" + 0.036*"today" + 0.036*"people"
+2020-08-07 12:25:00,296 : INFO : topic diff=0.022183, rho=0.142712
+2020-08-07 12:25:00,300 : INFO : -4.752 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,300 : INFO : PROGRESS: pass 43, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,301 : INFO : PROGRESS: pass 43, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,302 : INFO : PROGRESS: pass 43, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,303 : INFO : PROGRESS: pass 43, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,304 : INFO : PROGRESS: pass 43, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,305 : INFO : PROGRESS: pass 43, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,305 : INFO : PROGRESS: pass 43, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,406 : INFO : topic #2 (0.125): 0.177*"u" + 0.059*"every" + 0.058*"make" + 0.053*"celebrate" + 0.051*"life" + 0.049*"congratulation" + 0.044*"let" + 0.040*"day" + 0.037*"today" + 0.036*"people"
+2020-08-07 12:25:00,406 : INFO : topic #0 (0.125): 0.100*"year" + 0.076*"see" + 0.071*"developer" + 0.058*"world" + 0.053*"time" + 0.045*"week" + 0.038*"ago" + 0.035*"day" + 0.035*"powerful" + 0.034*"today"
+2020-08-07 12:25:00,406 : INFO : topic #6 (0.125): 0.220*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.054*"store" + 0.054*"new" + 0.051*"many" + 0.051*"great" + 0.044*"future" + 0.041*"meet" + 0.034*"team"
+2020-08-07 12:25:00,407 : INFO : topic #5 (0.125): 0.207*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.042*"thing" + 0.041*"shotoniphone" + 0.032*"customer" + 0.030*"photo"
+2020-08-07 12:25:00,407 : INFO : topic #4 (0.125): 0.102*"woman" + 0.076*"apple" + 0.075*"never" + 0.064*"story" + 0.063*"country" + 0.058*"right" + 0.057*"men" + 0.057*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:00,407 : INFO : topic diff=0.021275, rho=0.141280
+2020-08-07 12:25:00,411 : INFO : -4.751 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,411 : INFO : PROGRESS: pass 44, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,412 : INFO : PROGRESS: pass 44, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,413 : INFO : PROGRESS: pass 44, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,414 : INFO : PROGRESS: pass 44, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,415 : INFO : PROGRESS: pass 44, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,416 : INFO : PROGRESS: pass 44, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,416 : INFO : PROGRESS: pass 44, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,519 : INFO : topic #6 (0.125): 0.221*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.055*"store" + 0.054*"new" + 0.051*"many" + 0.051*"great" + 0.044*"future" + 0.041*"meet" + 0.034*"team"
+2020-08-07 12:25:00,520 : INFO : topic #0 (0.125): 0.101*"year" + 0.076*"see" + 0.071*"developer" + 0.058*"world" + 0.054*"time" + 0.045*"week" + 0.038*"ago" + 0.035*"powerful" + 0.035*"day" + 0.034*"today"
+2020-08-07 12:25:00,520 : INFO : topic #7 (0.125): 0.138*"apple" + 0.118*"everyone" + 0.100*"around_world" + 0.074*"celebrating" + 0.063*"happy" + 0.056*"day" + 0.048*"thank" + 0.042*"wishing" + 0.041*"customer" + 0.041*"first"
+2020-08-07 12:25:00,520 : INFO : topic #5 (0.125): 0.207*"thanks" + 0.123*"iphone" + 0.103*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.042*"thing" + 0.042*"shotoniphone" + 0.032*"customer" + 0.031*"photo"
+2020-08-07 12:25:00,520 : INFO : topic #3 (0.125): 0.166*"thank" + 0.142*"work" + 0.114*"proud" + 0.089*"team" + 0.072*"great" + 0.051*"friend" + 0.041*"visit" + 0.038*"back" + 0.036*"th" + 0.034*"help"
+2020-08-07 12:25:00,521 : INFO : topic diff=0.020475, rho=0.139891
+2020-08-07 12:25:00,525 : INFO : -4.751 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,525 : INFO : PROGRESS: pass 45, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,525 : INFO : PROGRESS: pass 45, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,526 : INFO : PROGRESS: pass 45, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,528 : INFO : PROGRESS: pass 45, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,529 : INFO : PROGRESS: pass 45, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,529 : INFO : PROGRESS: pass 45, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,530 : INFO : PROGRESS: pass 45, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,640 : INFO : topic #6 (0.125): 0.224*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.055*"store" + 0.054*"new" + 0.051*"many" + 0.051*"great" + 0.044*"future" + 0.041*"meet" + 0.034*"thanks"
+2020-08-07 12:25:00,640 : INFO : topic #3 (0.125): 0.167*"thank" + 0.143*"work" + 0.114*"proud" + 0.089*"team" + 0.072*"great" + 0.051*"friend" + 0.041*"visit" + 0.038*"back" + 0.036*"th" + 0.034*"help"
+2020-08-07 12:25:00,640 : INFO : topic #1 (0.125): 0.156*"heart" + 0.085*"community" + 0.078*"one" + 0.078*"family" + 0.046*"today" + 0.046*"victim" + 0.046*"affected" + 0.043*"pro" + 0.042*"violence" + 0.041*"ipad"
+2020-08-07 12:25:00,640 : INFO : topic #7 (0.125): 0.137*"apple" + 0.118*"everyone" + 0.101*"around_world" + 0.074*"celebrating" + 0.063*"happy" + 0.056*"day" + 0.047*"thank" + 0.042*"wishing" + 0.041*"customer" + 0.040*"first"
+2020-08-07 12:25:00,641 : INFO : topic #4 (0.125): 0.103*"woman" + 0.077*"apple" + 0.075*"never" + 0.064*"story" + 0.063*"country" + 0.059*"right" + 0.058*"men" + 0.058*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:00,641 : INFO : topic diff=0.019271, rho=0.138542
+2020-08-07 12:25:00,646 : INFO : -4.750 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,646 : INFO : PROGRESS: pass 46, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,647 : INFO : PROGRESS: pass 46, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,648 : INFO : PROGRESS: pass 46, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,648 : INFO : PROGRESS: pass 46, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,650 : INFO : PROGRESS: pass 46, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,650 : INFO : PROGRESS: pass 46, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,651 : INFO : PROGRESS: pass 46, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,756 : INFO : topic #4 (0.125): 0.103*"woman" + 0.077*"apple" + 0.075*"never" + 0.064*"story" + 0.064*"country" + 0.060*"right" + 0.058*"men" + 0.058*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:00,758 : INFO : topic #3 (0.125): 0.167*"thank" + 0.144*"work" + 0.115*"proud" + 0.089*"team" + 0.072*"great" + 0.051*"friend" + 0.041*"visit" + 0.038*"back" + 0.036*"th" + 0.034*"help"
+2020-08-07 12:25:00,758 : INFO : topic #5 (0.125): 0.208*"thanks" + 0.124*"iphone" + 0.103*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.042*"thing" + 0.041*"shotoniphone" + 0.032*"customer" + 0.031*"photo"
+2020-08-07 12:25:00,758 : INFO : topic #2 (0.125): 0.178*"u" + 0.059*"every" + 0.059*"make" + 0.053*"celebrate" + 0.050*"life" + 0.049*"congratulation" + 0.044*"let" + 0.040*"day" + 0.037*"today" + 0.036*"people"
+2020-08-07 12:25:00,758 : INFO : topic #6 (0.125): 0.225*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.055*"store" + 0.054*"new" + 0.051*"many" + 0.051*"great" + 0.044*"future" + 0.041*"meet" + 0.035*"thanks"
+2020-08-07 12:25:00,759 : INFO : topic diff=0.018538, rho=0.137231
+2020-08-07 12:25:00,763 : INFO : -4.750 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,763 : INFO : PROGRESS: pass 47, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,764 : INFO : PROGRESS: pass 47, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,765 : INFO : PROGRESS: pass 47, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,765 : INFO : PROGRESS: pass 47, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,766 : INFO : PROGRESS: pass 47, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,767 : INFO : PROGRESS: pass 47, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,767 : INFO : PROGRESS: pass 47, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,876 : INFO : topic #5 (0.125): 0.208*"thanks" + 0.123*"iphone" + 0.103*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.042*"thing" + 0.042*"shotoniphone" + 0.032*"customer" + 0.031*"photo"
+2020-08-07 12:25:00,877 : INFO : topic #4 (0.125): 0.103*"woman" + 0.078*"apple" + 0.075*"never" + 0.065*"story" + 0.064*"country" + 0.061*"right" + 0.058*"men" + 0.058*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:00,877 : INFO : topic #3 (0.125): 0.168*"thank" + 0.145*"work" + 0.115*"proud" + 0.090*"team" + 0.072*"great" + 0.051*"friend" + 0.041*"visit" + 0.038*"back" + 0.036*"th" + 0.034*"help"
+2020-08-07 12:25:00,877 : INFO : topic #7 (0.125): 0.136*"apple" + 0.119*"everyone" + 0.101*"around_world" + 0.074*"celebrating" + 0.063*"happy" + 0.056*"day" + 0.047*"thank" + 0.043*"wishing" + 0.041*"customer" + 0.040*"first"
+2020-08-07 12:25:00,877 : INFO : topic #2 (0.125): 0.179*"u" + 0.059*"make" + 0.059*"every" + 0.053*"celebrate" + 0.050*"life" + 0.049*"congratulation" + 0.044*"let" + 0.040*"day" + 0.037*"today" + 0.036*"people"
+2020-08-07 12:25:00,877 : INFO : topic diff=0.018098, rho=0.135957
+2020-08-07 12:25:00,882 : INFO : -4.750 per-word bound, 26.9 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,882 : INFO : PROGRESS: pass 48, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,883 : INFO : PROGRESS: pass 48, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,884 : INFO : PROGRESS: pass 48, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:00,885 : INFO : PROGRESS: pass 48, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:00,886 : INFO : PROGRESS: pass 48, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:00,887 : INFO : PROGRESS: pass 48, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:00,887 : INFO : PROGRESS: pass 48, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:00,991 : INFO : topic #7 (0.125): 0.136*"apple" + 0.120*"everyone" + 0.102*"around_world" + 0.074*"celebrating" + 0.064*"happy" + 0.056*"day" + 0.047*"thank" + 0.043*"wishing" + 0.041*"customer" + 0.040*"first"
+2020-08-07 12:25:00,992 : INFO : topic #6 (0.125): 0.227*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.055*"store" + 0.054*"new" + 0.052*"great" + 0.051*"many" + 0.045*"future" + 0.041*"meet" + 0.035*"thanks"
+2020-08-07 12:25:00,992 : INFO : topic #1 (0.125): 0.156*"heart" + 0.085*"community" + 0.079*"family" + 0.078*"one" + 0.046*"today" + 0.046*"victim" + 0.046*"affected" + 0.043*"pro" + 0.042*"violence" + 0.041*"ipad"
+2020-08-07 12:25:00,992 : INFO : topic #5 (0.125): 0.208*"thanks" + 0.123*"iphone" + 0.103*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.043*"thing" + 0.042*"shotoniphone" + 0.033*"customer" + 0.031*"photo"
+2020-08-07 12:25:00,992 : INFO : topic #0 (0.125): 0.103*"year" + 0.076*"see" + 0.072*"developer" + 0.058*"world" + 0.054*"time" + 0.045*"week" + 0.038*"ago" + 0.035*"app" + 0.035*"powerful" + 0.034*"today"
+2020-08-07 12:25:00,992 : INFO : topic diff=0.017613, rho=0.134718
+2020-08-07 12:25:00,996 : INFO : -4.760 per-word bound, 27.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:00,997 : INFO : PROGRESS: pass 49, dispatched chunk #0 = documents up to #100/610, outstanding queue size 1
+2020-08-07 12:25:00,997 : INFO : PROGRESS: pass 49, dispatched chunk #1 = documents up to #200/610, outstanding queue size 2
+2020-08-07 12:25:00,999 : INFO : PROGRESS: pass 49, dispatched chunk #2 = documents up to #300/610, outstanding queue size 3
+2020-08-07 12:25:01,000 : INFO : PROGRESS: pass 49, dispatched chunk #3 = documents up to #400/610, outstanding queue size 4
+2020-08-07 12:25:01,001 : INFO : PROGRESS: pass 49, dispatched chunk #4 = documents up to #500/610, outstanding queue size 5
+2020-08-07 12:25:01,001 : INFO : PROGRESS: pass 49, dispatched chunk #5 = documents up to #600/610, outstanding queue size 6
+2020-08-07 12:25:01,001 : INFO : PROGRESS: pass 49, dispatched chunk #6 = documents up to #610/610, outstanding queue size 7
+2020-08-07 12:25:01,113 : INFO : topic #6 (0.125): 0.228*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.055*"store" + 0.055*"new" + 0.052*"great" + 0.051*"many" + 0.045*"future" + 0.041*"meet" + 0.036*"thanks"
+2020-08-07 12:25:01,114 : INFO : topic #4 (0.125): 0.103*"woman" + 0.080*"apple" + 0.075*"never" + 0.065*"story" + 0.064*"country" + 0.062*"right" + 0.058*"men" + 0.058*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:01,114 : INFO : topic #5 (0.125): 0.208*"thanks" + 0.123*"iphone" + 0.102*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.043*"thing" + 0.041*"shotoniphone" + 0.033*"customer" + 0.031*"photo"
+2020-08-07 12:25:01,114 : INFO : topic #2 (0.125): 0.180*"u" + 0.060*"make" + 0.059*"every" + 0.053*"celebrate" + 0.050*"life" + 0.049*"congratulation" + 0.044*"let" + 0.040*"day" + 0.037*"today" + 0.036*"people"
+2020-08-07 12:25:01,115 : INFO : topic #7 (0.125): 0.136*"apple" + 0.120*"everyone" + 0.102*"around_world" + 0.074*"celebrating" + 0.064*"happy" + 0.056*"day" + 0.047*"thank" + 0.044*"wishing" + 0.041*"customer" + 0.040*"first"
+2020-08-07 12:25:01,115 : INFO : topic diff=0.016994, rho=0.133511
+2020-08-07 12:25:01,120 : INFO : -4.760 per-word bound, 27.1 perplexity estimate based on a held-out corpus of 10 documents with 29 words
+2020-08-07 12:25:01,238 : INFO : saving LdaState object under lda_train.model.state, separately None
+2020-08-07 12:25:01,265 : INFO : saved lda_train.model.state
+2020-08-07 12:25:01,266 : INFO : saving LdaMulticore object under lda_train.model, separately ['expElogbeta', 'sstats']
+2020-08-07 12:25:01,267 : INFO : storing np array 'expElogbeta' to lda_train.model.expElogbeta.npy
+2020-08-07 12:25:01,329 : INFO : not storing attribute dispatcher
+2020-08-07 12:25:01,330 : INFO : not storing attribute id2word
+2020-08-07 12:25:01,330 : INFO : not storing attribute state
+2020-08-07 12:25:01,331 : INFO : saved lda_train.model
+2020-08-07 12:25:01,334 : INFO : using ParallelWordOccurrenceAccumulator(processes=3, batch_size=64) to estimate probabilities from sliding windows
+2020-08-07 12:25:04,329 : INFO : 3 accumulators retrieved from output queue
+2020-08-07 12:25:04,650 : INFO : accumulated word occurrence stats for 578 virtual documents
+2020-08-07 12:25:05,592 : INFO : topic #0 (0.125): 0.103*"year" + 0.076*"see" + 0.072*"developer" + 0.058*"world" + 0.054*"time" + 0.045*"week" + 0.038*"ago" + 0.036*"app" + 0.035*"powerful" + 0.034*"today"
+2020-08-07 12:25:05,593 : INFO : topic #1 (0.125): 0.156*"heart" + 0.085*"community" + 0.079*"family" + 0.078*"one" + 0.046*"today" + 0.046*"victim" + 0.046*"affected" + 0.043*"pro" + 0.042*"violence" + 0.041*"ipad"
+2020-08-07 12:25:05,593 : INFO : topic #2 (0.125): 0.180*"u" + 0.060*"make" + 0.059*"every" + 0.053*"celebrate" + 0.050*"life" + 0.049*"congratulation" + 0.044*"let" + 0.040*"day" + 0.037*"today" + 0.036*"people"
+2020-08-07 12:25:05,593 : INFO : topic #3 (0.125): 0.170*"thank" + 0.148*"work" + 0.116*"proud" + 0.090*"team" + 0.072*"great" + 0.050*"friend" + 0.041*"visit" + 0.038*"back" + 0.037*"th" + 0.034*"help"
+2020-08-07 12:25:05,593 : INFO : topic #4 (0.125): 0.103*"woman" + 0.080*"apple" + 0.075*"never" + 0.065*"story" + 0.064*"country" + 0.062*"right" + 0.058*"men" + 0.058*"enjoy" + 0.057*"like" + 0.054*"place"
+2020-08-07 12:25:05,594 : INFO : topic #5 (0.125): 0.208*"thanks" + 0.123*"iphone" + 0.102*"new" + 0.076*"love" + 0.058*"student" + 0.047*"forward" + 0.043*"thing" + 0.041*"shotoniphone" + 0.033*"customer" + 0.031*"photo"
+2020-08-07 12:25:05,594 : INFO : topic #6 (0.125): 0.228*"apple" + 0.095*"today" + 0.057*"thrilled" + 0.055*"store" + 0.055*"new" + 0.052*"great" + 0.051*"many" + 0.045*"future" + 0.041*"meet" + 0.036*"thanks"
+2020-08-07 12:25:05,594 : INFO : topic #7 (0.125): 0.136*"apple" + 0.120*"everyone" + 0.102*"around_world" + 0.074*"celebrating" + 0.064*"happy" + 0.056*"day" + 0.047*"thank" + 0.044*"wishing" + 0.041*"customer" + 0.040*"first"
